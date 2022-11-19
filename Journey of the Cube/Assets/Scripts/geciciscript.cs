@@ -9,13 +9,13 @@ public class geciciscript : MonoBehaviour
 {
     [SerializeField]
     private int teleportindex;
-    public void ýþýnlan()
+    public void Ä±ÅŸÄ±nlan()
     {
         SceneManager.LoadScene(teleportindex);
     }
     private void OnTriggerEnter(Collider other)
     {
-        ýþýnlan();
+        Ä±ÅŸÄ±nlan();
     }
     // Start is called before the first frame update
     void Start()

@@ -4,6 +4,7 @@ ScriptsOnlyBuild:
     - CamFallow
     - CloseButton
     - EndIntro
+    - TabInputField
     - TeleporterScript
     - geciciscript
     - leveltext
@@ -76,6 +77,12 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: CloseButton
     methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: TabInputField
+    methodName: PasswordSelected
+  - assembly: Assembly-CSharp
+    fullTypeName: TabInputField
+    methodName: UsernameSelected
   sceneClasses:
     Assets/Scenes/Intro.unity:
     - Class: 1
@@ -109,25 +116,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1546}
     - Class: 114
-      Script: {instanceID: 2216}
+      Script: {instanceID: 2218}
     - Class: 114
-      Script: {instanceID: 2652}
+      Script: {instanceID: 2654}
     - Class: 114
-      Script: {instanceID: 2880}
+      Script: {instanceID: 2882}
     - Class: 114
-      Script: {instanceID: 4150}
+      Script: {instanceID: 4156}
     - Class: 114
-      Script: {instanceID: 4262}
+      Script: {instanceID: 4268}
     - Class: 114
-      Script: {instanceID: 4538}
+      Script: {instanceID: 4544}
     - Class: 114
-      Script: {instanceID: 5320}
+      Script: {instanceID: 5326}
     - Class: 114
-      Script: {instanceID: 5938}
+      Script: {instanceID: 5946}
     - Class: 114
-      Script: {instanceID: 6438}
+      Script: {instanceID: 6446}
     - Class: 114
-      Script: {instanceID: 7876}
+      Script: {instanceID: 7886}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -144,7 +151,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
-    Assets/Scenes/SampleScene.unity:
+    Assets/Scenes/Login&Register.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -153,17 +160,9 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 21
       Script: {instanceID: 0}
-    - Class: 23
-      Script: {instanceID: 0}
     - Class: 28
       Script: {instanceID: 0}
-    - Class: 33
-      Script: {instanceID: 0}
-    - Class: 43
-      Script: {instanceID: 0}
     - Class: 48
-      Script: {instanceID: 0}
-    - Class: 65
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
@@ -178,27 +177,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1718}
     - Class: 114
-      Script: {instanceID: 2652}
+      Script: {instanceID: 2654}
     - Class: 114
-      Script: {instanceID: 2880}
+      Script: {instanceID: 2882}
     - Class: 114
-      Script: {instanceID: 3184}
+      Script: {instanceID: 3186}
     - Class: 114
-      Script: {instanceID: 4248}
+      Script: {instanceID: 4254}
     - Class: 114
-      Script: {instanceID: 4516}
+      Script: {instanceID: 4522}
     - Class: 114
-      Script: {instanceID: 5100}
+      Script: {instanceID: 5106}
     - Class: 114
-      Script: {instanceID: 5320}
+      Script: {instanceID: 5326}
     - Class: 114
-      Script: {instanceID: 5938}
+      Script: {instanceID: 5946}
     - Class: 114
-      Script: {instanceID: 6092}
+      Script: {instanceID: 6100}
     - Class: 114
-      Script: {instanceID: 6438}
+      Script: {instanceID: 6446}
     - Class: 114
-      Script: {instanceID: 31816}
+      Script: {instanceID: 7674}
+    - Class: 114
+      Script: {instanceID: 29368}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -247,20 +248,18 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 3654}
+      Script: {instanceID: 3656}
     - Class: 114
-      Script: {instanceID: 5320}
+      Script: {instanceID: 3990}
     - Class: 114
-      Script: {instanceID: 23624}
+      Script: {instanceID: 4120}
     - Class: 114
-      Script: {instanceID: 23628}
+      Script: {instanceID: 5326}
     - Class: 114
-      Script: {instanceID: 23634}
+      Script: {instanceID: 5676}
     - Class: 114
-      Script: {instanceID: 31816}
+      Script: {instanceID: 7674}
     - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -304,20 +303,18 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 3654}
+      Script: {instanceID: 1756}
     - Class: 114
-      Script: {instanceID: 5320}
+      Script: {instanceID: 3656}
     - Class: 114
-      Script: {instanceID: 23624}
+      Script: {instanceID: 3990}
     - Class: 114
-      Script: {instanceID: 23628}
+      Script: {instanceID: 4120}
     - Class: 114
-      Script: {instanceID: 31816}
+      Script: {instanceID: 5326}
     - Class: 114
-      Script: {instanceID: 43338}
+      Script: {instanceID: 7674}
     - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -362,6 +359,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: 27b4993ca9798ff818baad6f9b43e55b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: leveltext
   - hash:
       serializedVersion: 2
       Hash: 8a874a8207a7664bdf44e61f28717254
@@ -700,6 +703,12 @@ ScriptsOnlyBuild:
     className: EnvMapAnimator
   - hash:
       serializedVersion: 2
+      Hash: 9866bba5dcc57522f94757e61b0dcd90
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CamFallow
+  - hash:
+      serializedVersion: 2
       Hash: bd3f0ca738703903e759f77536ed74fd
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
@@ -710,6 +719,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: da3e704d9901660735723236ccb79a87
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: playerhareket
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -976,6 +991,12 @@ ScriptsOnlyBuild:
     className: Text
   - hash:
       serializedVersion: 2
+      Hash: 7ebf9f170366427299f032bfffd68f4e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TeleporterScript
+  - hash:
+      serializedVersion: 2
       Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
     assemblyName: Unity.VisualScripting.State.dll
     namespaceName: Unity.VisualScripting
@@ -1210,6 +1231,12 @@ ScriptsOnlyBuild:
     className: ScrollRect
   - hash:
       serializedVersion: 2
+      Hash: 241a5fa8bd23ac050a482b20dc34162a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: geciciscript
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -1318,38 +1345,15 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 9866bba5dcc57522f94757e61b0dcd90
+      Hash: 1d2edcb9ed04206327a9e0b27fe2e35f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: CamFallow
-  - hash:
-      serializedVersion: 2
-      Hash: da3e704d9901660735723236ccb79a87
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: playerhareket
-  - hash:
-      serializedVersion: 2
-      Hash: 7ebf9f170366427299f032bfffd68f4e
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: TeleporterScript
-  - hash:
-      serializedVersion: 2
-      Hash: 241a5fa8bd23ac050a482b20dc34162a
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: geciciscript
-  - hash:
-      serializedVersion: 2
-      Hash: 27b4993ca9798ff818baad6f9b43e55b
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: leveltext
+    className: TabInputField
   platform: 19
   scenePathNames:
   - Assets/Scenes/Intro.unity
-  - Assets/Scenes/SampleScene.unity
+  - Assets/Scenes/Login&Register.unity
   - "Assets/Scenes/giri\u015F.unity"
   - Assets/Scenes/leveller.unity
-  playerPath: "C:/Users/alkan \u015Fahin/Desktop/journey/Journey of the Cube.exe"
+  playerPath: C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of
+    the Cube.exe

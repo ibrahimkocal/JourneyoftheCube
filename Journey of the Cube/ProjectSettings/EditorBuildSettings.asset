@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Intro.unity
     guid: 3e0e6e03cbb8dca4db25c3f8c960829d
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/Login&Register.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
     path: "Assets/Scenes/giri\u015F.unity"
