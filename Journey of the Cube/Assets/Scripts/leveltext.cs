@@ -5,6 +5,7 @@ using TMPro;
 
 public class leveltext : MonoBehaviour
 {
+    
     [SerializeField]
     TextMeshPro textMeshPro;
     [SerializeField]

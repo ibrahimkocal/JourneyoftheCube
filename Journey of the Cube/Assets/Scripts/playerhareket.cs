@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class playerhareket : MonoBehaviour
@@ -9,6 +10,7 @@ public class playerhareket : MonoBehaviour
     float speed,jump;
     [SerializeField]
     Vector3 ReSpawnPozition;
+    bool isgrounded = false ;
 
 
     // Start is called before the first frame update
@@ -22,30 +24,41 @@ public class playerhareket : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.W))
         {
-            rb.AddForce(new Vector3(-speed,0,0) );
+            rb.AddForce(new Vector3(-speed*Time.deltaTime,0,0) );
         }
         if (Input.GetKey(KeyCode.S))
         {
-            rb.AddForce(new Vector3(speed, 0, 0));
+            rb.AddForce(new Vector3(speed*Time.deltaTime, 0, 0));
         }
         if (Input.GetKey(KeyCode.A))
         {
-            rb.AddForce(new Vector3(0, 0, -speed));
+            rb.AddForce(new Vector3(0, 0, -speed * Time.deltaTime));
         }
         if (Input.GetKey(KeyCode.D))
         {
-            rb.AddForce(new Vector3(0, 0, speed));
+            rb.AddForce(new Vector3(0, 0, speed * Time.deltaTime));
         }
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && !isgrounded)
         {
             rb.AddForce(new Vector3(0, jump, 0));
+            isgrounded = true;
+            
         }
         if (transform.position.y <= -10)
         {
             Dead();
         }
+    
+        
 
-
+    }
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(collision.collider.tag == "grounded")
+        {
+            isgrounded = false;
+        }
+        
     }
     private void Dead()
         {

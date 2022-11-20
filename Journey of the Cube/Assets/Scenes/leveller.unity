@@ -203,7 +203,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58afd93bb2fb90a419a435e89fb0f1e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 18
+  speed: 2000
   jump: 350
   ReSpawnPozition: {x: 10, y: 3, z: -5}
 --- !u!65 &276319054
@@ -1119,6 +1119,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 822096369, guid: 943c55d7abfedf046a8313951f8d2821, type: 3}
+      propertyPath: teleportindex
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 239088240475052514, guid: 943c55d7abfedf046a8313951f8d2821, type: 3}
       propertyPath: text
       value: level 1
