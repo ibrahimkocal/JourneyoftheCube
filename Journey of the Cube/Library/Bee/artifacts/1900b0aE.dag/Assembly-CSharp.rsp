@@ -357,6 +357,7 @@
 "Assets/Scripts/EndIntro.cs"
 "Assets/Scripts/geciciscript.cs"
 "Assets/Scripts/leveltext.cs"
+"Assets/Scripts/LoginWarning.cs"
 "Assets/Scripts/playerhareket.cs"
 "Assets/Scripts/TabInputField.cs"
 "Assets/Scripts/TeleporterScript.cs"
