@@ -9,14 +9,11 @@ public class geciciscript : MonoBehaviour
 {
     [SerializeField]
     private int teleportindex;
-    public void ışınlan()
+    public void isinlan()
     {
         SceneManager.LoadScene(teleportindex);
     }
-    private void OnTriggerEnter(Collider other)
-    {
-        ışınlan();
-    }
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -27,5 +24,9 @@ public class geciciscript : MonoBehaviour
     void Update()
     {
         
+    }
+    public void isinlan(int sahneID)
+    {
+        SceneManager.LoadScene(sahneID);
     }
 }

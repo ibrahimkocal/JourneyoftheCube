@@ -352,6 +352,10 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/Scenes/leveltasarımları/levelkodları/bölümbitis.cs"
+"Assets/Scenes/leveltasarımları/levelkodları/LevelPortalManeger.cs"
+"Assets/Scenes/leveltasarımları/levelkodları/levelısınlan.cs"
+"Assets/Scenes/leveltasarımları/levelkodları/yanma.cs"
 "Assets/Scripts/CamFallow.cs"
 "Assets/Scripts/CloseButton.cs"
 "Assets/Scripts/DatabaseConnection.cs"
@@ -397,7 +401,6 @@
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs"
-"Assets/yanma.cs"
 -langversion:9.0
 
 /deterministic
