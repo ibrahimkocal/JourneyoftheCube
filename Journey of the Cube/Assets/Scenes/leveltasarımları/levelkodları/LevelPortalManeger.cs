@@ -30,8 +30,8 @@ public class LevelPortalManeger : MonoBehaviour
             if (levelbool == 1)
             {
                 portal[i].transform.GetChild(3).gameObject.GetComponent<Renderer>().material.color = Color.green;
-                portal[i].gameObject.GetComponent<levelýsýnlan>().isOpen = true;
-                Debug.Log(i + " portal açýldý");
+                portal[i].gameObject.GetComponent<levelÄ±sÄ±nlan>().isOpen = true;
+                Debug.Log(i + " portal aï¿½ï¿½ldï¿½");
             }
         }
     }

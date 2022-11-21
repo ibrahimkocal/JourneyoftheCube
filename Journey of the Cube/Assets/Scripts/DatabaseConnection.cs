@@ -6,8 +6,8 @@ public class DatabaseConnection : MonoBehaviour
 {
     void Start()
     {
-        // Database baðlantýsýnýn yapýlacaðý yer
-        // Ardýndan add value yi sql kodlarý ile deðiþtir
+        // Database baï¿½lantï¿½sï¿½nï¿½n yapï¿½lacaï¿½ï¿½ yer
+        // Ardï¿½ndan add value yi sql kodlarï¿½ ile deï¿½iï¿½tir
     }
 
     public static bool AddValue(string Key, int value)
