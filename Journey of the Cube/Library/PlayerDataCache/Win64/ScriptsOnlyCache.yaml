@@ -5,8 +5,10 @@ ScriptsOnlyBuild:
     - CloseButton
     - EndIntro
     - LevelPortalManeger
+    - PauseMenu
     - TabInputField
     - TeleporterScript
+    - Warning
     - "b\xF6l\xFCmbitis"
     - geciciscript
     - leveltext
@@ -79,8 +81,11 @@ ScriptsOnlyBuild:
     fullTypeName: CloseButton
     methodName: close
   - assembly: Assembly-CSharp
-    fullTypeName: geciciscript
-    methodName: isinlan
+    fullTypeName: Warning
+    methodName: RegisterMouseClick
+  - assembly: Assembly-CSharp
+    fullTypeName: Warning
+    methodName: CheckValidation
   - assembly: Assembly-CSharp
     fullTypeName: TabInputField
     methodName: PasswordSelected
@@ -90,6 +95,15 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: CloseButton
     methodName: close
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: ResumeGame
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: QuitMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: LoadMenu
   sceneClasses:
     Assets/Scenes/Intro.unity:
     - Class: 1
@@ -109,8 +123,6 @@ ScriptsOnlyBuild:
     - Class: 74
       Script: {instanceID: 0}
     - Class: 81
-      Script: {instanceID: 0}
-    - Class: 89
       Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
@@ -172,8 +184,6 @@ ScriptsOnlyBuild:
     - Class: 48
       Script: {instanceID: 0}
     - Class: 81
-      Script: {instanceID: 0}
-    - Class: 89
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -250,8 +260,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
@@ -305,8 +313,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
@@ -357,7 +363,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
-    "Assets/Scenes/leveltasar\u0131mlar\u0131/level1.unity":
+    "Assets/Scenes/leveltasar\u0131mlar\u0131/Level1.unity":
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -381,30 +387,56 @@ ScriptsOnlyBuild:
     - Class: 65
       Script: {instanceID: 0}
     - Class: 81
-      Script: {instanceID: 0}
-    - Class: 89
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 1546}
+    - Class: 114
       Script: {instanceID: 2434}
+    - Class: 114
+      Script: {instanceID: 2656}
+    - Class: 114
+      Script: {instanceID: 2884}
+    - Class: 114
+      Script: {instanceID: 3190}
     - Class: 114
       Script: {instanceID: 3998}
     - Class: 114
       Script: {instanceID: 4128}
     - Class: 114
+      Script: {instanceID: 5336}
+    - Class: 114
+      Script: {instanceID: 5958}
+    - Class: 114
+      Script: {instanceID: 6114}
+    - Class: 114
+      Script: {instanceID: 6460}
+    - Class: 114
       Script: {instanceID: 7688}
     - Class: 114
       Script: {instanceID: 8278}
+    - Class: 114
+      Script: {instanceID: 38966}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
-    "Assets/Scenes/leveltasar\u0131mlar\u0131/level2.unity":
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    "Assets/Scenes/leveltasar\u0131mlar\u0131/Level2.unity":
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -428,8 +460,6 @@ ScriptsOnlyBuild:
     - Class: 65
       Script: {instanceID: 0}
     - Class: 81
-      Script: {instanceID: 0}
-    - Class: 89
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -688,6 +718,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
     className: VertexShakeA
+  - hash:
+      serializedVersion: 2
+      Hash: b63e5bc9d179000a1533546f7935ab2f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Warning
   - hash:
       serializedVersion: 2
       Hash: 0fd6822f6177297bd0eb4d83cc7a9030
@@ -1510,13 +1546,19 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 930b2a7c015542327cee6af349728cdd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PauseMenu
   platform: 19
   scenePathNames:
   - Assets/Scenes/Intro.unity
   - Assets/Scenes/Login&Register.unity
   - "Assets/Scenes/giri\u015F.unity"
   - Assets/Scenes/leveller.unity
-  - "Assets/Scenes/leveltasar\u0131mlar\u0131/level1.unity"
-  - "Assets/Scenes/leveltasar\u0131mlar\u0131/level2.unity"
+  - "Assets/Scenes/leveltasar\u0131mlar\u0131/Level1.unity"
+  - "Assets/Scenes/leveltasar\u0131mlar\u0131/Level2.unity"
   playerPath: C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of
     the Cube.exe

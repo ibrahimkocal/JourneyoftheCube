@@ -49,7 +49,6 @@ public class playerhareket : MonoBehaviour
             Dead();
         }
     
-        
 
     }
     private void OnCollisionEnter(Collision collision)

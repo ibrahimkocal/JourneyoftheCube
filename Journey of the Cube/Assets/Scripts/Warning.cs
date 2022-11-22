@@ -71,8 +71,11 @@ public class Warning : MonoBehaviour
         string u_name = Username.text;
         string pass = Password.text;
 
-        DatabaseConnection.AddAccount(u_name,pass);
-        Debug.Log("Kayıt Başarılı & Register Successfully");   
-        text.text = "Kayıt Başarılı & Register Successfully)"; 
+        if(!string.IsNullOrWhiteSpace(u_name) || !string.IsNullOrWhiteSpace(pass))
+        {
+            DatabaseConnection.AddAccount(u_name,pass);
+            Debug.Log("Kayıt Başarılı & Register Successfully");   
+            text.text = "Kayıt Başarılı & Register Successfully)"; 
+        }
     }
 }

@@ -363,6 +363,7 @@
 "Assets/Scripts/geciciscript.cs"
 "Assets/Scripts/levelmaneger.cs"
 "Assets/Scripts/leveltext.cs"
+"Assets/Scripts/PauseMenu.cs"
 "Assets/Scripts/playerhareket.cs"
 "Assets/Scripts/TabInputField.cs"
 "Assets/Scripts/TeleporterScript.cs"
