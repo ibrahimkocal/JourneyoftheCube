@@ -42,6 +42,12 @@ public class PauseMenu : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); 
     }
 
+    public void LobbyMenu()
+    {   
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(3);
+    }
+
     public void QuitMenu()
     {
         Application.Quit();
