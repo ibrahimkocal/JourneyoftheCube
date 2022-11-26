@@ -1289,6 +1289,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4469692221267028280, guid: 943c55d7abfedf046a8313951f8d2821, type: 3}
+      propertyPath: isOpen
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4469692221267028280, guid: 943c55d7abfedf046a8313951f8d2821, type: 3}
       propertyPath: sahneID
       value: 4
       objectReference: {fileID: 0}
