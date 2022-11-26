@@ -12,6 +12,7 @@ public class bölümbitis : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         DatabaseConnection.AddValue("Level02", 1);
+       
         Debug.Log(DatabaseConnection.GetValueINT("Level02").ToString());
         GetComponent<geciciscript>().isinlan(sahneID);
         
