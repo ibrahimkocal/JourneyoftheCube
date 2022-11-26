@@ -321,6 +321,7 @@
 "Assets/Scripts/leveltext.cs"
 "Assets/Scripts/PauseMenu.cs"
 "Assets/Scripts/playerhareket.cs"
+"Assets/Scripts/sagasolahareket.cs"
 "Assets/Scripts/TabInputField.cs"
 "Assets/Scripts/TeleporterScript.cs"
 "Assets/Scripts/Warning.cs"

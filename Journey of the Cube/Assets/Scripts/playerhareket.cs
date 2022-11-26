@@ -24,19 +24,19 @@ public class playerhareket : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.W))
         {
-            rb.AddForce(new Vector3(-speed*Time.deltaTime,0,0) );
+            rb.AddForce(new Vector3(0,0, speed * Time.deltaTime) );
         }
         if (Input.GetKey(KeyCode.S))
         {
-            rb.AddForce(new Vector3(speed*Time.deltaTime, 0, 0));
+            rb.AddForce(new Vector3(0, 0, -speed * Time.deltaTime));
         }
         if (Input.GetKey(KeyCode.A))
         {
-            rb.AddForce(new Vector3(0, 0, -speed * Time.deltaTime));
+            rb.AddForce(new Vector3(-speed * Time.deltaTime, 0, 0));
         }
         if (Input.GetKey(KeyCode.D))
         {
-            rb.AddForce(new Vector3(0, 0, speed * Time.deltaTime));
+            rb.AddForce(new Vector3(speed * Time.deltaTime, 0, 0));
         }
         if (Input.GetKeyDown(KeyCode.Space) && !isgrounded)
         {

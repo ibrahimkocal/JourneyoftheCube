@@ -8,7 +8,7 @@ public class TeleporterScript : MonoBehaviour
     int SceneID;
     private void OnCollisionEnter(Collision collision)
     {
-        if(SceneID == 3)
+        
         {
             SceneManager.LoadScene(SceneID);
         }

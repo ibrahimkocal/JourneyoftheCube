@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 31
+  controlID: 33
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 59
+  controlID: 107
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -275,7 +275,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 60
+  controlID: 108
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -295,8 +295,8 @@ MonoBehaviour:
     y: 0
     width: 594
     height: 586
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -343,13 +343,13 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/prefabs
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/prefabs
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: "C:\\Users\\alkan \u015Fahin\\Desktop\\ibo\\JourneyoftheCube\\Journey
     of the Cube"
@@ -357,23 +357,23 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 60}
-    m_SelectedIDs: dc610000
-    m_LastClickedID: 25052
-    m_ExpandedIDs: 00000000065d0000085d00000a5d00000c5d000000ca9a3b
+    m_SelectedIDs: 385d0000
+    m_LastClickedID: 23864
+    m_ExpandedIDs: 000000001c5d00001e5d0000205d0000225d0000365d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: "leveltasar\u0131mlar\u0131"
-      m_OriginalName: "leveltasar\u0131mlar\u0131"
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 23820
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 6}
     m_SearchString: 
@@ -387,7 +387,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000065d0000085d00000a5d00000c5d00000e5d0000
+    m_ExpandedIDs: 000000001c5d00001e5d0000205d0000225d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -517,21 +517,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 163cffff363effffe459ffffde63ffff9469ffff826cffff7c6effff1272ffff7c72ffffdc74fffff87cffffa680ffff2881ffff86a2ffff3ca6ffff6aaaffff44aeffff26b7ffff48bbffff40c1ffff26c6ffff78efffff36fbffff0067000050690000d46a0000326c000062740000427700009e780000ee7c0000467d0000
+      m_ExpandedIDs: 288dfeff7c8dfeffec8efeffe090feff2c92feff3892feff7692feff8692feffb69afeff48a9feffe0acfeff26b5feff7cbdfeff0ac3feff2cddfeffeadffeff3ee0feffaee1feffa2e3feffeee4fefffae4feff38e5feff48e5fefff029ffffc464ffff8066ffffd466ffff4468ffff386affff7e6bffff8c6bffffc26bffffc86bffffb06fffff0470ffff7871ffff7073ffffba74ffffcc74ffff0675ffff1075ffff8e7affff52b2ffff8aceffff36fbffff545b0000e2710000629d000000c900005cd20000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: "giri\u015F"
+        m_OriginalName: "giri\u015F"
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 54762
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 5}
       m_SearchString: 
@@ -766,9 +766,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -7.889101, y: 7.604499, z: -31.660166}
+    m_Target: {x: 124.92706, y: -1210.9733, z: 1404.0483}
     speed: 2
-    m_Value: {x: -7.889101, y: 7.604499, z: -31.660166}
+    m_Value: {x: 124.92706, y: -1210.9733, z: 1404.0483}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -815,20 +815,20 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.076831594, y: 0.13838664, z: -0.010772667, w: 0.98725086}
+    m_Target: {x: 0.34733164, y: 0.043375116, z: -0.016033925, w: 0.9364592}
     speed: 2
-    m_Value: {x: 0.076821715, y: 0.13987896, z: -0.010888805, w: 0.98712397}
+    m_Value: {x: 0.3474016, y: 0.04197597, z: -0.015514976, w: 0.93664795}
   m_Size:
-    m_Target: 3.1038668
+    m_Target: 942.5979
     speed: 2
-    m_Value: 2.9702075
+    m_Value: 987.0135
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 1.9400301
-    m_SpeedNormalized: 0.97
+    m_Speed: 1.8800601
+    m_SpeedNormalized: 0.94000006
     m_SpeedMin: 0.001
     m_SpeedMax: 2
     m_EasingEnabled: 1
