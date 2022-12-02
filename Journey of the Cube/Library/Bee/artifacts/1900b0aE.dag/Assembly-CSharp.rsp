@@ -371,6 +371,7 @@
 "Assets/Scripts/TeleporterScript.cs"
 "Assets/Scripts/Timer.cs"
 "Assets/Scripts/Timer2.cs"
+"Assets/Scripts/timerManager.cs"
 "Assets/Scripts/Warning.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
