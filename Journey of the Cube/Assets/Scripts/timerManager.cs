@@ -29,22 +29,20 @@ public class timerManager : MonoBehaviour
                 IEsecond = 0;
             }
         }
-         void TextTime() {
-             if(IEsecond<10)
-          {
-              timeText = "0"+ IEMinute + ":" + "0"+IEsecond;         
-          }
-          else
-          {   
-              timeText = "0"+ IEMinute + ":" + IEsecond; 
-              if(IEsecond>59)
-              {
-                  int intseconds = 00;
-                  timeText = "0"+ IEMinute + ":" + intseconds; 
-              }   
-          }
-         }
-        
-    
+        void TextTime() {
+            if(IEsecond<10)
+            {
+                timeText = "0"+ IEMinute + ":" + "0"+IEsecond;         
+            }
+            else
+            {   
+                timeText = "0"+ IEMinute + ":" + IEsecond; 
+                if(IEsecond>59)
+                {
+                int intseconds = 00;
+                timeText = "0"+ IEMinute + ":" + intseconds; 
+                }   
+            }
+        }
     }
 }

@@ -14,7 +14,7 @@ public class TeleporterScript : MonoBehaviour
         }
 
 
-        if (SceneID == -1 )
+        if (SceneID == 1 )
         {
             Application.Quit();
         }
