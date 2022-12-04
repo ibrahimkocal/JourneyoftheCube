@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class sagasolahareket : MonoBehaviour
 {
+    
     GameObject c1, c2;
     [SerializeField]
     float Speed;

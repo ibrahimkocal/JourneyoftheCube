@@ -979,7 +979,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 2000
   jump: 400
-  ReSpawnPozition: {x: -4, y: 3.76, z: -19}
+  ReSpawnPozition: {x: -4.3, y: 3.76, z: -19}
 --- !u!54 &1158302753
 Rigidbody:
   m_ObjectHideFlags: 0
