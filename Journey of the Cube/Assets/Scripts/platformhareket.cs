@@ -22,22 +22,22 @@ public class platformhareket : MonoBehaviour
 
         if (timer)
         {
-            if (forcespeed > 4)
+            if (forcespeed > 0)
             {
                 forcespeed = -speed;
-                timer = true;
+                timer = false;
 
             }else if(forcespeed < 0)
             {
                 forcespeed = speed;
-                timer = true;
+                timer = false;
             }
         }
     }
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "untagged")
+        if (collision.gameObject.tag == "grounded")
         {
             timer = true;
         }
