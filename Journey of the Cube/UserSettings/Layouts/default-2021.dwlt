@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 780.8
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Hierarchy
   m_RootView: {fileID: 7}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -43,8 +43,8 @@ MonoBehaviour:
     y: 0
     width: 506.39996
     height: 456
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 17
+  controlID: 124
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -94,8 +94,8 @@ MonoBehaviour:
     y: 0
     width: 378.40002
     height: 730.8
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 36
+  controlID: 130
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -275,7 +275,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 37
+  controlID: 131
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -295,8 +295,8 @@ MonoBehaviour:
     y: 0
     width: 426.40002
     height: 456
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -343,23 +343,23 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - "Assets/Scenes/leveltasar\u0131mlar\u0131"
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - "Assets/Scenes/leveltasar\u0131mlar\u0131"
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\enesi\Desktop\gitHub\JourneyoftheCube\Journey of the
     Cube
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 6.200012}
-    m_SelectedIDs: 2c600000
-    m_LastClickedID: 24620
-    m_ExpandedIDs: 000000002c6000002e6000004260000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: b05d0000
+    m_LastClickedID: 23984
+    m_ExpandedIDs: 00000000ae5d0000b05d0000d05d000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -387,7 +387,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000002c6000002e600000
+    m_ExpandedIDs: 00000000ae5d0000b05d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -515,23 +515,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: e2e0feffc6e5feff86eafeffd8effeffa01cffff321effffd463ffff9467ffff906dffffc276ffff12beffff1ec2ffff50c2ffff68c4ffff9ad0ffff1ad3ffffdad6ffff28d9ffffc0ddffff06e1ffff54e3ffffa6e6fffff4e8ffff38ecffffe0f0ffff2cf4ffffe6f7ffff0a610000ec720000d2760000968d0000128e00001c93000082930000
+      m_SelectedIDs: debf0000
+      m_LastClickedID: 49118
+      m_ExpandedIDs: c2b9feffcabdfeff70cafeff60cbfeff16d0feff80d2feffe8dcfeffd8ddfeff02e8fefff2e8feffdcf2feffccf3feff90f9feff80fafeff3c04ffffa606ffff3c0fffffd41dffffc41effff1823ffff262bffffe62effffe838ffffba3effff2847ffff1848ffff9e4bffff9650ffff8455ffffee57ffff1264ffff0265ffff3666ffffa068ffff5c6dffff4c6effff9e6ffffff46fffff4675ffff1478ffff6079ffff7479ffffa279ffffa879ffff1080ffff6480ffffb685ffff8488ffffd089ffffe489ffff128affff188affffded0ffff36d8ffff14deffff8ce3ffffb6e7ffffbeecffff50eeffff04f2ffffa2f9ffff38fbfffff25a0000825f0000f25f0000a06100000a620000a2630000b2640000fe64000026650000a8650000dc85000014860000b48600008e91000002950000d69900006c9c0000089f00000aa9000086a90000bcb2000022bf0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: player
-        m_OriginalName: player
+        m_Name: Cube (3)
+        m_OriginalName: Cube (3)
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 30374
+        m_UserData: 45588
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 4
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 5}
       m_SearchString: 
@@ -574,8 +574,8 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: -100, y: -25.600006}
-      snapOffsetDelta: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: -100, y: -25.600006}
       snapCorner: 3
       id: Tool Settings
       index: 0
@@ -596,7 +596,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 24.8}
+      snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-scene-view-toolbar
@@ -766,9 +766,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 135.90355, y: 100.212425, z: 1180.879}
+    m_Target: {x: 23.253344, y: -1.2315145, z: 163.62955}
     speed: 2
-    m_Value: {x: 135.90355, y: 100.212425, z: 1180.879}
+    m_Value: {x: 23.253344, y: -1.2315145, z: 163.62955}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -815,13 +815,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.04518636, y: 0.058974374, z: 0.0027972157, w: 0.9971147}
+    m_Target: {x: 0.11306879, y: 0.29909134, z: -0.035511237, w: 0.9467166}
     speed: 2
-    m_Value: {x: -0.04519166, y: 0.058981292, z: 0.0027975438, w: 0.9972317}
+    m_Value: {x: 0.1130816, y: 0.29912522, z: -0.03551526, w: 0.94682384}
   m_Size:
-    m_Target: 545.1814
+    m_Target: 13.783484
     speed: 2
-    m_Value: 545.1814
+    m_Value: 13.783484
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -904,7 +904,7 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMin: 1
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
-    m_HSlider: 0
+    m_HSlider: 1
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
@@ -918,18 +918,18 @@ MonoBehaviour:
       y: 21
       width: 504.39996
       height: 414
-    m_Scale: {x: 0.32838538, y: 0.32838538}
-    m_Translation: {x: 252.19998, y: 207}
+    m_Scale: {x: 0.42731234, y: 0.42731234}
+    m_Translation: {x: 273.5764, y: 207}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -768
-      y: -630.35693
-      width: 1536
-      height: 1260.7139
+      x: -640.22577
+      y: -484.42316
+      width: 1180.4011
+      height: 968.8463
     m_MinimalGUI: 1
   m_defaultScale: 0.32838538
   m_LastWindowPixelSize: {x: 630.49994, y: 543.75}

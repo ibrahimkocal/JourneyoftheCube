@@ -92,7 +92,13 @@ ScriptsOnlyBuild:
     methodName: RegisterMouseClick
   - assembly: Assembly-CSharp
     fullTypeName: Warning
+    methodName: PasswordGoruntuleme
+  - assembly: Assembly-CSharp
+    fullTypeName: Warning
     methodName: CheckValidation
+  - assembly: Assembly-CSharp
+    fullTypeName: Warning
+    methodName: PasswordGoruntuleme
   - assembly: Assembly-CSharp
     fullTypeName: TabInputField
     methodName: PasswordSelected
@@ -459,9 +465,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7700}
     - Class: 114
-      Script: {instanceID: 8290}
+      Script: {instanceID: 7938}
     - Class: 114
-      Script: {instanceID: 32382}
+      Script: {instanceID: 8292}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -550,7 +556,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7700}
     - Class: 114
-      Script: {instanceID: 8290}
+      Script: {instanceID: 8292}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -826,7 +832,7 @@ ScriptsOnlyBuild:
     className: VertexShakeA
   - hash:
       serializedVersion: 2
-      Hash: b63e5bc9d179000a1533546f7935ab2f
+      Hash: c4383836a765c91a2ea34a2801bd1dc6
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Warning
@@ -1600,6 +1606,12 @@ ScriptsOnlyBuild:
     className: TMP_PhoneNumberValidator
   - hash:
       serializedVersion: 2
+      Hash: cbde6a97374cb601ff1ab84fed915d57
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BestTime
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
@@ -1670,12 +1682,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: cbde6a97374cb601ff1ab84fed915d57
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: BestTime
   platform: 19
   scenePathNames:
   - Assets/Scenes/Intro.unity

@@ -5,12 +5,15 @@ using TMPro;
 public class Warning : MonoBehaviour
 {
     public TMP_InputField Username;
-    public TMP_InputField Password;
+    [SerializeField] public TMP_InputField Password;
     
     public TextMeshProUGUI text;
     public Button registerButton;
 
     public geciciscript girisyapildi;
+
+    public Button passwordGoruntule;
+    public Button passwordGizle;
 
     public GameObject[] canvas;
 
@@ -79,5 +82,24 @@ public class Warning : MonoBehaviour
             text.color = Color.green;
             text.text = "Kayıt Başarılı & Register Successfully"; 
         }
+    }
+
+    public void PasswordGoruntuleme()
+    {
+
+        if(Password.contentType == TMP_InputField.ContentType.Password)
+        {
+            
+            Password.contentType = TMP_InputField.ContentType.Standard;
+            passwordGizle.gameObject.SetActive(true);
+            passwordGoruntule.gameObject.SetActive(false);
+        }
+        else
+        {
+            Password.contentType = TMP_InputField.ContentType.Password; 
+            passwordGizle.gameObject.SetActive(false);
+            passwordGoruntule.gameObject.SetActive(true);
+        }
+        Password.ForceLabelUpdate();
     }
 }
