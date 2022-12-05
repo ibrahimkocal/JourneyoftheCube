@@ -7,14 +7,15 @@ public class bölümbitis : MonoBehaviour
     [SerializeField]
     private int sahneID;
     [SerializeField]
-    private string level;
-    
+    private string NewLevel;
+    [SerializeField] string Levelnn;
+    [SerializeField]BestTime BestTimeS;
     private void OnTriggerEnter(Collider other)
     {
-        DatabaseConnection.AddValue("Level02", 1);       
-        Debug.Log(DatabaseConnection.GetValueINT("Level02").ToString());
+        DatabaseConnection.AddValue(NewLevel, 1);       
+        Debug.Log(DatabaseConnection.GetValueINT(NewLevel).ToString());
         GetComponent<geciciscript>().isinlan(sahneID);
-               
+        BestTimeS.GameEnd(Levelnn);
     }
     // Start is called before the first frame update
     void Start()

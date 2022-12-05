@@ -24,7 +24,8 @@ public class Warning : MonoBehaviour
         if(u_name == user[0] && pass == user[1])
         {
             Debug.Log("Giriş Başarılı & Login Successfully");   
-            text.text = "Giriş Başarılı & Login Successfully";   
+            text.text = "Giriş Başarılı & Login Successfully";
+            text.color = Color.green;   
             girisyapildi.isinlan();
         }
         else if (string.IsNullOrWhiteSpace(u_name) || string.IsNullOrWhiteSpace(pass))
@@ -75,7 +76,8 @@ public class Warning : MonoBehaviour
         {
             DatabaseConnection.AddAccount(u_name,pass);
             Debug.Log("Kayıt Başarılı & Register Successfully");   
-            text.text = "Kayıt Başarılı & Register Successfully)"; 
+            text.color = Color.green;
+            text.text = "Kayıt Başarılı & Register Successfully"; 
         }
     }
 }

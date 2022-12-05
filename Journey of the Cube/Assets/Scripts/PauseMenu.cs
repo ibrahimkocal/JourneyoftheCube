@@ -2,9 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class PauseMenu : MonoBehaviour
 {
+    public TextMeshProUGUI timerText;
+    public TextMeshProUGUI timerTitleText;
     public static bool isgamePaused = false;
 
     [SerializeField] GameObject pauseMenu;
@@ -27,6 +30,8 @@ public class PauseMenu : MonoBehaviour
         pauseMenu.SetActive(false);
         Time.timeScale = 1f;
         isgamePaused = false;
+        timerText.enabled = true;
+        timerTitleText.enabled = true;
     }
 
     void PauseGame()
@@ -34,6 +39,8 @@ public class PauseMenu : MonoBehaviour
         pauseMenu.SetActive(true);
         Time.timeScale = 0f;
         isgamePaused = true;
+        timerText.enabled = false;
+        timerTitleText.enabled = false;
     }
 
     public void LoadMenu()
