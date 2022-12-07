@@ -391,7 +391,7 @@ MonoBehaviour:
   - Level08
   - Level09
   - Level10
-  "MevcutLevelAd\u0131": Level01
+  "MevcutLevelAd\u0131": Level02
 --- !u!1 &472786898
 GameObject:
   m_ObjectHideFlags: 0
@@ -630,6 +630,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 7222335645666194693, guid: 848f851c10009e74385e37eda3530823, type: 3}
   m_PrefabInstance: {fileID: 7183344194027099212}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &721175321 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8412571633808330004, guid: 52d402ba36b41e74f847898875bb28ce, type: 3}
+  m_PrefabInstance: {fileID: 8412571633586026541}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &820001969 stripped
 Transform:
@@ -2081,12 +2086,27 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8412571633808330006, guid: 52d402ba36b41e74f847898875bb28ce, type: 3}
   m_PrefabInstance: {fileID: 8412571633586026541}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 721175321}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1941992766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 721175321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24003d9514bedc740b4d76c0f2d68670, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TimeSpeed: 0
+  timerText: {fileID: 1941992763}
+  timeM: {fileID: 908020659}
 --- !u!4 &1970934753 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9072143491631618140, guid: 917b29cb3e0b0c1488e62b3d1c60366d, type: 3}
