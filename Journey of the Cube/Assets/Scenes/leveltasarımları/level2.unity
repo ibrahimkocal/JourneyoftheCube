@@ -1106,7 +1106,7 @@ MonoBehaviour:
   - Level08
   - Level09
   - Level10
-  "MevcutLevelAd\u0131": Level02
+  "MevcutLevelAd\u0131": Level03
 --- !u!114 &821248581 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7939723514631318677, guid: 03827a1dcc036b14b8330d044508372e, type: 3}
@@ -2552,6 +2552,10 @@ PrefabInstance:
       propertyPath: NewLevel
       value: Level04
       objectReference: {fileID: 0}
+    - target: {fileID: 9072143491631618144, guid: 917b29cb3e0b0c1488e62b3d1c60366d, type: 3}
+      propertyPath: BestTimeS
+      value: 
+      objectReference: {fileID: 792656253}
     - target: {fileID: 9072143491631618145, guid: 917b29cb3e0b0c1488e62b3d1c60366d, type: 3}
       propertyPath: m_Name
       value: bitiskubu

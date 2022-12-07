@@ -479,6 +479,11 @@ PrefabInstance:
       objectReference: {fileID: 1352298020392919046, guid: 06a5c3f44c8d5f24f87a27c2d2540ef6, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 943c55d7abfedf046a8313951f8d2821, type: 3}
+--- !u!1 &364858874 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1525237010614002598, guid: 943c55d7abfedf046a8313951f8d2821, type: 3}
+  m_PrefabInstance: {fileID: 364858873}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &369136096
 GameObject:
   m_ObjectHideFlags: 0
@@ -744,6 +749,11 @@ PrefabInstance:
       objectReference: {fileID: 1352298020392919046, guid: 06a5c3f44c8d5f24f87a27c2d2540ef6, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 943c55d7abfedf046a8313951f8d2821, type: 3}
+--- !u!1 &598420561 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1525237010614002598, guid: 943c55d7abfedf046a8313951f8d2821, type: 3}
+  m_PrefabInstance: {fileID: 598420560}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &614543914
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1137,6 +1147,8 @@ MonoBehaviour:
   - {fileID: 457634282}
   - {fileID: 332924261}
   - {fileID: 2112553731}
+  - {fileID: 364858874}
+  - {fileID: 598420561}
   levels:
   - Level01
   - Level02

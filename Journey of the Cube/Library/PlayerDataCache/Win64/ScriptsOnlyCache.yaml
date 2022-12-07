@@ -132,6 +132,18 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: PauseMenu
     methodName: ResumeGame
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: QuitMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: LobbyMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: LoadMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: ResumeGame
   sceneClasses:
     Assets/Scenes/Intro.unity:
     - Class: 1
@@ -179,11 +191,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4560}
     - Class: 114
-      Script: {instanceID: 5344}
+      Script: {instanceID: 5346}
     - Class: 114
-      Script: {instanceID: 5966}
+      Script: {instanceID: 5968}
     - Class: 114
-      Script: {instanceID: 7912}
+      Script: {instanceID: 7914}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -240,17 +252,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4538}
     - Class: 114
-      Script: {instanceID: 5124}
+      Script: {instanceID: 5130}
     - Class: 114
-      Script: {instanceID: 5344}
+      Script: {instanceID: 5346}
     - Class: 114
-      Script: {instanceID: 5414}
+      Script: {instanceID: 5416}
     - Class: 114
-      Script: {instanceID: 5966}
+      Script: {instanceID: 5968}
     - Class: 114
-      Script: {instanceID: 6122}
+      Script: {instanceID: 6124}
     - Class: 114
-      Script: {instanceID: 7700}
+      Script: {instanceID: 7702}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -305,9 +317,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4134}
     - Class: 114
-      Script: {instanceID: 5344}
+      Script: {instanceID: 5346}
     - Class: 114
-      Script: {instanceID: 5696}
+      Script: {instanceID: 5698}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -374,15 +386,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4538}
     - Class: 114
-      Script: {instanceID: 5344}
+      Script: {instanceID: 5346}
     - Class: 114
-      Script: {instanceID: 5966}
+      Script: {instanceID: 5968}
     - Class: 114
-      Script: {instanceID: 6030}
+      Script: {instanceID: 6032}
     - Class: 114
-      Script: {instanceID: 6122}
+      Script: {instanceID: 6124}
     - Class: 114
-      Script: {instanceID: 7700}
+      Script: {instanceID: 7702}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -396,6 +408,53 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    "Assets/Scenes/leveltasar\u0131mlar\u0131/level0.unity":
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 2440}
+    - Class: 114
+      Script: {instanceID: 4004}
+    - Class: 114
+      Script: {instanceID: 4134}
+    - Class: 114
+      Script: {instanceID: 7702}
+    - Class: 114
+      Script: {instanceID: 8294}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
       Script: {instanceID: 0}
     "Assets/Scenes/leveltasar\u0131mlar\u0131/level1.unity":
     - Class: 1
@@ -453,21 +512,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5040}
     - Class: 114
-      Script: {instanceID: 5344}
+      Script: {instanceID: 5346}
     - Class: 114
-      Script: {instanceID: 5966}
+      Script: {instanceID: 5968}
     - Class: 114
-      Script: {instanceID: 6122}
+      Script: {instanceID: 6124}
     - Class: 114
-      Script: {instanceID: 6670}
+      Script: {instanceID: 6672}
     - Class: 114
-      Script: {instanceID: 7512}
+      Script: {instanceID: 7514}
     - Class: 114
-      Script: {instanceID: 7700}
+      Script: {instanceID: 7702}
     - Class: 114
-      Script: {instanceID: 7938}
+      Script: {instanceID: 7940}
     - Class: 114
-      Script: {instanceID: 8292}
+      Script: {instanceID: 8294}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -485,6 +544,97 @@ ScriptsOnlyBuild:
     - Class: 224
       Script: {instanceID: 0}
     "Assets/Scenes/leveltasar\u0131mlar\u0131/level2.unity":
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 45
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1546}
+    - Class: 114
+      Script: {instanceID: 1548}
+    - Class: 114
+      Script: {instanceID: 1550}
+    - Class: 114
+      Script: {instanceID: 2070}
+    - Class: 114
+      Script: {instanceID: 2440}
+    - Class: 114
+      Script: {instanceID: 2662}
+    - Class: 114
+      Script: {instanceID: 2726}
+    - Class: 114
+      Script: {instanceID: 3196}
+    - Class: 114
+      Script: {instanceID: 3562}
+    - Class: 114
+      Script: {instanceID: 3670}
+    - Class: 114
+      Script: {instanceID: 4004}
+    - Class: 114
+      Script: {instanceID: 4134}
+    - Class: 114
+      Script: {instanceID: 5040}
+    - Class: 114
+      Script: {instanceID: 5346}
+    - Class: 114
+      Script: {instanceID: 5968}
+    - Class: 114
+      Script: {instanceID: 6124}
+    - Class: 114
+      Script: {instanceID: 6586}
+    - Class: 114
+      Script: {instanceID: 6672}
+    - Class: 114
+      Script: {instanceID: 7514}
+    - Class: 114
+      Script: {instanceID: 7702}
+    - Class: 114
+      Script: {instanceID: 7940}
+    - Class: 114
+      Script: {instanceID: 8294}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    "Assets/Scenes/leveltasar\u0131mlar\u0131/level3.unity":
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -528,8 +678,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2662}
     - Class: 114
-      Script: {instanceID: 2726}
-    - Class: 114
       Script: {instanceID: 3196}
     - Class: 114
       Script: {instanceID: 3562}
@@ -542,21 +690,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5040}
     - Class: 114
-      Script: {instanceID: 5344}
+      Script: {instanceID: 5346}
     - Class: 114
-      Script: {instanceID: 5966}
+      Script: {instanceID: 5968}
     - Class: 114
-      Script: {instanceID: 6122}
+      Script: {instanceID: 6124}
     - Class: 114
-      Script: {instanceID: 6584}
+      Script: {instanceID: 6672}
     - Class: 114
-      Script: {instanceID: 6670}
+      Script: {instanceID: 7514}
     - Class: 114
-      Script: {instanceID: 7512}
+      Script: {instanceID: 7702}
     - Class: 114
-      Script: {instanceID: 7700}
+      Script: {instanceID: 7940}
     - Class: 114
-      Script: {instanceID: 8292}
+      Script: {instanceID: 8294}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -1204,6 +1352,12 @@ ScriptsOnlyBuild:
     className: AnimationPlayableAsset
   - hash:
       serializedVersion: 2
+      Hash: 10a01ef12d2fc4c85fec8920410824ed
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: "yukar\u0131asa"
+  - hash:
+      serializedVersion: 2
       Hash: 77aaaaa51f7a8d8ff333a879741e47d2
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -1690,5 +1844,6 @@ ScriptsOnlyBuild:
   - Assets/Scenes/leveller.unity
   - "Assets/Scenes/leveltasar\u0131mlar\u0131/level1.unity"
   - "Assets/Scenes/leveltasar\u0131mlar\u0131/level2.unity"
-  playerPath: C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of
-    the Cube.exe
+  - "Assets/Scenes/leveltasar\u0131mlar\u0131/level3.unity"
+  - "Assets/Scenes/leveltasar\u0131mlar\u0131/level0.unity"
+  playerPath: "C:/Users/alkan \u015Fahin/Desktop/journey/Journey of the Cube.exe"

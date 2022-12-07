@@ -343,13 +343,13 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - "Assets/Scenes/leveltasar\u0131mlar\u0131"
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - "Assets/Scenes/leveltasar\u0131mlar\u0131"
   m_LastFoldersGridSize: -1
   m_LastProjectPath: "C:\\Users\\alkan \u015Fahin\\Desktop\\ibo\\JourneyoftheCube\\Journey
     of the Cube"
@@ -357,9 +357,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 405b0000
-    m_LastClickedID: 23360
-    m_ExpandedIDs: 000000003c5b00003e5b0000405b000000ca9a3b
+    m_SelectedIDs: be5c0000
+    m_LastClickedID: 23742
+    m_ExpandedIDs: 00000000bc5c0000be5c0000c05c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -387,7 +387,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000003c5b00003e5b0000405b0000
+    m_ExpandedIDs: 00000000bc5c0000be5c0000c05c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -515,9 +515,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: de5b0000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: f6f8ffff36fbffff
+      m_ExpandedIDs: 6e36ffffc236ffff4439ffff0c3cffff0a40ffffde42ffff7644ffff8a44ffffcc44ffffe044ffffe647ffff2c4cffff5c4cffff684effffda50ffffa255ffff9c56ffff6a64ffff9a64ffff2669ffff206affff866bfffff86dffff9e74ffff9875ffff1a7dffff4a7dffff6a83ffff6484ffff7a92ffff3e9bffffb89dffff94b4ffff20bfffff30c1ffffaac3ffff4ac9ffff9eccffff6acfffff8ed6ffff00d9fffff4dfffffeee0ffffa4e6ffff20e9ffffeaedffffe4eeffff4cf4ffff36fbffffe05d0000526400000877000092790000a07b00001e7d00005e810000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -766,9 +766,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 37.293514, y: -3.060789, z: -0.27587414}
+    m_Target: {x: -13.789039, y: 11.025904, z: -1.232985}
     speed: 2
-    m_Value: {x: 37.293514, y: -3.060789, z: -0.27587414}
+    m_Value: {x: -13.789039, y: 11.025904, z: -1.232985}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -815,13 +815,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.07115746, y: 0.6829376, z: -0.066877544, w: 0.7239239}
+    m_Target: {x: -0.17373538, y: -0.34176263, z: 0.064253315, w: -0.92137194}
     speed: 2
-    m_Value: {x: 0.07125751, y: 0.6818491, z: -0.066770546, w: 0.72494555}
+    m_Value: {x: -0.1736353, y: -0.34313738, z: 0.06451255, w: -0.9208397}
   m_Size:
-    m_Target: 46.512787
+    m_Target: 1.3449111
     speed: 2
-    m_Value: 44.509846
+    m_Value: 1.2869962
   m_Ortho:
     m_Target: 0
     speed: 2
