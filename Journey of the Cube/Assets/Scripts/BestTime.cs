@@ -13,7 +13,7 @@ public class BestTime : MonoBehaviour
     {
         text = GetComponent<TextMeshPro>();
         text.text = "\n" + DatabaseConnection.GetValueINT(MevcutLevelAdı +"_EndSecond").ToString();
-        Debug.Log(DatabaseConnection.GetValueINT(MevcutLevelAdı +"_EndSecond").ToString());
+       
          if(PlayerPrefs.GetString("unity.player_session_count") == "1") {
             foreach (string level in Levels) {
                 DatabaseConnection.AddValue(level +"_EndSecond" , 200);
@@ -23,9 +23,9 @@ public class BestTime : MonoBehaviour
     }
     public void GameEnd(string LevelName) {
        int RealSecond = tm.GetTimeRealSecond(); 
-        Debug.Log(RealSecond +" : " + DatabaseConnection.GetValueINT( LevelName+"_EndSecond") );
+        
         if ( RealSecond < DatabaseConnection.GetValueINT( LevelName+"_EndSecond")) {
-            Debug.Log("Yeni rekor  :"+ RealSecond);
+            
             DatabaseConnection.AddValue(LevelName+"_EndSecond" , RealSecond);
         }
     }

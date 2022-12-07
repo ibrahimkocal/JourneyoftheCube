@@ -31,7 +31,7 @@ public class timerManager : MonoBehaviour
             yield return new WaitForSeconds(timeSpeed); 
             CalculateTime();
             TextTime();
-            Debug.Log(IEsecond + " " + IEMinute);  
+              
         }
         void CalculateTime() {
             if(IEsecond % 60 == 0) {
