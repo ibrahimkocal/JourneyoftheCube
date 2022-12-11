@@ -364,6 +364,7 @@
 "Assets/Scripts/geciciscript.cs"
 "Assets/Scripts/levelmaneger.cs"
 "Assets/Scripts/leveltext.cs"
+"Assets/Scripts/MusicPlayer.cs"
 "Assets/Scripts/PauseMenu.cs"
 "Assets/Scripts/platformhareket.cs"
 "Assets/Scripts/playerhareket.cs"
