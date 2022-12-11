@@ -881,9 +881,9 @@ MonoBehaviour:
   Password: {fileID: 1860875413}
   text: {fileID: 782628377}
   registerButton: {fileID: 454377824}
-  girisyapildi: {fileID: 0}
-  passwordGoruntule: {fileID: 0}
-  passwordGizle: {fileID: 0}
+  girisyapildi: {fileID: 1421505747}
+  passwordGoruntule: {fileID: 1376892738}
+  passwordGizle: {fileID: 1478162268}
   canvas: []
 --- !u!1 &559027830
 GameObject:
