@@ -1,5 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
+using UnityEngine.UI;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
@@ -8,6 +7,8 @@ public class PauseMenu : MonoBehaviour
 {
     public TextMeshProUGUI timerText;
     public TextMeshProUGUI timerTitleText;
+    
+    public Button pauseButton;
     public static bool isgamePaused = false;
 
     [SerializeField] GameObject pauseMenu;
@@ -44,6 +45,7 @@ public class PauseMenu : MonoBehaviour
         isgamePaused = false;
         timerText.enabled = true;
         timerTitleText.enabled = true;
+        pauseButton.interactable = true;
     }
 
     void PauseGame()
@@ -53,11 +55,13 @@ public class PauseMenu : MonoBehaviour
         isgamePaused = true;
         timerText.enabled = false;
         timerTitleText.enabled = false;
+        pauseButton.interactable = false;
     }
 
     public void LoadMenu()
     {
         Time.timeScale = 1f;
+        pauseButton.interactable = true;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); 
     }
 
