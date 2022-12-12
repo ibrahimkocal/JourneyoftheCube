@@ -25,6 +25,18 @@ public class PauseMenu : MonoBehaviour
             }
     }
 
+    public void PauseButtonClick()
+    {
+        if (isgamePaused)
+            {
+                ResumeGame();
+            }
+            else 
+            {
+                PauseGame();        
+            }
+    }
+
     public void ResumeGame()
     {
         pauseMenu.SetActive(false);
