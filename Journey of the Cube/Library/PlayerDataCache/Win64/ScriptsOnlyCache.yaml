@@ -121,20 +121,8 @@ ScriptsOnlyBuild:
     fullTypeName: LobbyPause
     methodName: PauseButtonClick
   - assembly: Assembly-CSharp
-    fullTypeName: PauseMenu
-    methodName: PauseButtonClick
-  - assembly: Assembly-CSharp
-    fullTypeName: PauseMenu
-    methodName: QuitMenu
-  - assembly: Assembly-CSharp
-    fullTypeName: PauseMenu
-    methodName: LobbyMenu
-  - assembly: Assembly-CSharp
-    fullTypeName: PauseMenu
-    methodName: LoadMenu
-  - assembly: Assembly-CSharp
-    fullTypeName: PauseMenu
-    methodName: ResumeGame
+    fullTypeName: "b\xF6l\xFCmbitis"
+    methodName: OKButton
   - assembly: Assembly-CSharp
     fullTypeName: PauseMenu
     methodName: PauseButtonClick
@@ -166,6 +154,9 @@ ScriptsOnlyBuild:
     fullTypeName: PauseMenu
     methodName: ResumeGame
   - assembly: Assembly-CSharp
+    fullTypeName: "b\xF6l\xFCmbitis"
+    methodName: OKButton
+  - assembly: Assembly-CSharp
     fullTypeName: PauseMenu
     methodName: PauseButtonClick
   - assembly: Assembly-CSharp
@@ -180,6 +171,30 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: PauseMenu
     methodName: ResumeGame
+  - assembly: Assembly-CSharp
+    fullTypeName: "b\xF6l\xFCmbitis"
+    methodName: OKButton
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: PauseButtonClick
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: QuitMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: LobbyMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: LoadMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: ResumeGame
+  - assembly: Assembly-CSharp
+    fullTypeName: "b\xF6l\xFCmbitis"
+    methodName: OKButton
+  - assembly: Assembly-CSharp
+    fullTypeName: "b\xF6l\xFCmbitis"
+    methodName: OKButton
   - assembly: Assembly-CSharp
     fullTypeName: PauseMenu
     methodName: PauseButtonClick
@@ -244,9 +259,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5348}
     - Class: 114
-      Script: {instanceID: 5972}
+      Script: {instanceID: 5974}
     - Class: 114
-      Script: {instanceID: 7918}
+      Script: {instanceID: 7920}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -313,13 +328,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5418}
     - Class: 114
-      Script: {instanceID: 5850}
+      Script: {instanceID: 5852}
     - Class: 114
-      Script: {instanceID: 5972}
+      Script: {instanceID: 5974}
     - Class: 114
-      Script: {instanceID: 6128}
+      Script: {instanceID: 6130}
     - Class: 114
-      Script: {instanceID: 7706}
+      Script: {instanceID: 7708}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -376,7 +391,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5348}
     - Class: 114
-      Script: {instanceID: 5700}
+      Script: {instanceID: 5702}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -445,13 +460,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5348}
     - Class: 114
-      Script: {instanceID: 5972}
+      Script: {instanceID: 5974}
     - Class: 114
-      Script: {instanceID: 6036}
+      Script: {instanceID: 6038}
     - Class: 114
-      Script: {instanceID: 6128}
+      Script: {instanceID: 6130}
     - Class: 114
-      Script: {instanceID: 7706}
+      Script: {instanceID: 7708}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -526,19 +541,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5348}
     - Class: 114
-      Script: {instanceID: 5972}
+      Script: {instanceID: 5974}
     - Class: 114
-      Script: {instanceID: 6128}
+      Script: {instanceID: 6130}
     - Class: 114
-      Script: {instanceID: 6676}
+      Script: {instanceID: 6678}
     - Class: 114
-      Script: {instanceID: 7518}
+      Script: {instanceID: 7520}
     - Class: 114
-      Script: {instanceID: 7706}
+      Script: {instanceID: 7708}
     - Class: 114
-      Script: {instanceID: 7944}
+      Script: {instanceID: 7946}
     - Class: 114
-      Script: {instanceID: 8298}
+      Script: {instanceID: 8300}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -613,19 +628,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5348}
     - Class: 114
-      Script: {instanceID: 5972}
+      Script: {instanceID: 5974}
     - Class: 114
-      Script: {instanceID: 6128}
+      Script: {instanceID: 6130}
     - Class: 114
-      Script: {instanceID: 6676}
+      Script: {instanceID: 6678}
     - Class: 114
-      Script: {instanceID: 7518}
+      Script: {instanceID: 7520}
     - Class: 114
-      Script: {instanceID: 7706}
+      Script: {instanceID: 7708}
     - Class: 114
-      Script: {instanceID: 7944}
+      Script: {instanceID: 7946}
     - Class: 114
-      Script: {instanceID: 8298}
+      Script: {instanceID: 8300}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -704,21 +719,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5348}
     - Class: 114
-      Script: {instanceID: 5972}
+      Script: {instanceID: 5974}
     - Class: 114
-      Script: {instanceID: 6128}
+      Script: {instanceID: 6130}
     - Class: 114
-      Script: {instanceID: 6590}
+      Script: {instanceID: 6592}
     - Class: 114
-      Script: {instanceID: 6676}
+      Script: {instanceID: 6678}
     - Class: 114
-      Script: {instanceID: 7518}
+      Script: {instanceID: 7520}
     - Class: 114
-      Script: {instanceID: 7706}
+      Script: {instanceID: 7708}
     - Class: 114
-      Script: {instanceID: 7944}
+      Script: {instanceID: 7946}
     - Class: 114
-      Script: {instanceID: 8298}
+      Script: {instanceID: 8300}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -793,19 +808,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5348}
     - Class: 114
-      Script: {instanceID: 5972}
+      Script: {instanceID: 5974}
     - Class: 114
-      Script: {instanceID: 6128}
+      Script: {instanceID: 6130}
     - Class: 114
-      Script: {instanceID: 6676}
+      Script: {instanceID: 6678}
     - Class: 114
-      Script: {instanceID: 7518}
+      Script: {instanceID: 7520}
     - Class: 114
-      Script: {instanceID: 7706}
+      Script: {instanceID: 7708}
     - Class: 114
-      Script: {instanceID: 7944}
+      Script: {instanceID: 7946}
     - Class: 114
-      Script: {instanceID: 8298}
+      Script: {instanceID: 8300}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -884,19 +899,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5348}
     - Class: 114
-      Script: {instanceID: 5972}
+      Script: {instanceID: 5974}
     - Class: 114
-      Script: {instanceID: 6128}
+      Script: {instanceID: 6130}
     - Class: 114
-      Script: {instanceID: 6676}
+      Script: {instanceID: 6678}
     - Class: 114
-      Script: {instanceID: 7518}
+      Script: {instanceID: 7520}
     - Class: 114
-      Script: {instanceID: 7706}
+      Script: {instanceID: 7708}
     - Class: 114
-      Script: {instanceID: 7944}
+      Script: {instanceID: 7946}
     - Class: 114
-      Script: {instanceID: 8298}
+      Script: {instanceID: 8300}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -2008,7 +2023,7 @@ ScriptsOnlyBuild:
     className: SignalEmitter
   - hash:
       serializedVersion: 2
-      Hash: 8faf86ce6eb52c06b1cdbf9d910d4bff
+      Hash: ff995fccaa85c159aab4d4739752f400
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: "b\xF6l\xFCmbitis"
