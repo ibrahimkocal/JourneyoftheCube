@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/leveltasar\u0131mlar\u0131/level4.unity"
     guid: eeb12bf198c54d349b2927ca0ad34209
+  - enabled: 1
+    path: "Assets/Scenes/leveltasar\u0131mlar\u0131/level5.unity"
+    guid: ae740b1c91e31534fb4af73528d5a479
   m_configObjects: {}
