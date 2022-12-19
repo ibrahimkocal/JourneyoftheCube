@@ -1,491 +1,546 @@
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
 { "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
-{ "pid": 0, "tid": 1, "ts": 1671464166495307, "dur": 203914, "ph": "X", "name": "Build Player", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1671464166495321, "dur": 13364, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1671464166508688, "dur": 177540, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1671464166686230, "dur": 12990, "ph": "X", "name": "Finish", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1671464166699858, "dur": 9, "ph": "X", "name": "", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671472298189012, "dur": 749335, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671472298189216, "dur": 6257, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671472298195475, "dur": 48913, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671472298244391, "dur": 477475, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671472298721868, "dur": 204711, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671472298926581, "dur": 11765, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671472298938857, "dur": 10, "ph": "X", "name": "", "args": {} },
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1671464166527275, "dur":1211, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671464166528498, "dur":167, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
-,{ "pid":12345, "tid":0, "ts":1671464166528696, "dur":19, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1671464166528715, "dur":426, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
-,{ "pid":12345, "tid":0, "ts":1671464166529161, "dur":564, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671464166529725, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671464166679393, "dur":275, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671464166679668, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671464166679677, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671464166679680, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671464166679684, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671464166679686, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671464166679692, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671464166679693, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671464166679698, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671464166679699, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671464166679704, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671464166679705, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671464166679709, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671464166679711, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671464166679714, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671464166679715, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671464166679720, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671464166679721, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671464166679724, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671464166679725, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671464166679729, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671464166679730, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671464166679733, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671464166679734, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671464166679738, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671464166679739, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671464166679743, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671464166679744, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671464166679748, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671464166679749, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671464166679752, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671464166679753, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671464166679757, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671464166679775, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671464166679795, "dur":1220, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1671464166529225, "dur":505, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1671464166529732, "dur":3794, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1671464166533538, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1671464166533542, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1671464166533597, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1671464166533599, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1671464166533637, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":1, "ts":1671464166533676, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1671464166533712, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1671464166533766, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1671464166533848, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1671464166533887, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1671464166533927, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1671464166533977, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1671464166534018, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1671464166534060, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1671464166534097, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1671464166534196, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1671464166534247, "dur":636, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
-,{ "pid":12345, "tid":1, "ts":1671464166534883, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1671464166534931, "dur":31801, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/Unity.Services.Core.Configuration.dll" }}
-,{ "pid":12345, "tid":1, "ts":1671464166566734, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1671464166566816, "dur":55109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/resources.assets" }}
-,{ "pid":12345, "tid":1, "ts":1671464166621936, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1671464166621978, "dur":3217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/resources.assets" }}
-,{ "pid":12345, "tid":1, "ts":1671464166625234, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/level1" }}
-,{ "pid":12345, "tid":1, "ts":1671464166625277, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1671464166625282, "dur":2438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/level1" }}
-,{ "pid":12345, "tid":1, "ts":1671464166627757, "dur":51625, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1671464166529252, "dur":487, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1671464166529739, "dur":3794, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1671464166533539, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1671464166533612, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1671464166533659, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":2, "ts":1671464166533725, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1671464166533772, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1671464166533853, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1671464166533901, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1671464166533945, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1671464166533985, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1671464166534037, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1671464166534082, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1671464166534181, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1671464166534239, "dur":904, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/Unity.Services.Core.Networking.dll" }}
-,{ "pid":12345, "tid":2, "ts":1671464166535144, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1671464166535190, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":2, "ts":1671464166535235, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1671464166535267, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":2, "ts":1671464166535303, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1671464166535335, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":2, "ts":1671464166535369, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1671464166535401, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":2, "ts":1671464166535441, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1671464166535475, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":2, "ts":1671464166535531, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1671464166535578, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":2, "ts":1671464166535616, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1671464166535652, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
-,{ "pid":12345, "tid":2, "ts":1671464166535764, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1671464166535811, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/sharedassets7.assets" }}
-,{ "pid":12345, "tid":2, "ts":1671464166535853, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1671464166541739, "dur":1779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/sharedassets7.assets" }}
-,{ "pid":12345, "tid":2, "ts":1671464166543551, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":2, "ts":1671464166543593, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1671464166543598, "dur":2553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":2, "ts":1671464166546193, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":2, "ts":1671464166546236, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1671464166546245, "dur":741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":2, "ts":1671464166547024, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/sharedassets1.resource" }}
-,{ "pid":12345, "tid":2, "ts":1671464166547066, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1671464166547072, "dur":8799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/sharedassets1.resource" }}
-,{ "pid":12345, "tid":2, "ts":1671464166555916, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1671464166555962, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1671464166555967, "dur":69670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1671464166625679, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":2, "ts":1671464166625719, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1671464166625746, "dur":2424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":2, "ts":1671464166628217, "dur":51183, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1671464166529243, "dur":492, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1671464166529735, "dur":3803, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1671464166533539, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":3, "ts":1671464166533620, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1671464166533657, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":3, "ts":1671464166533720, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1671464166533765, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1671464166533829, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1671464166533864, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1671464166533945, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1671464166533984, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1671464166534036, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1671464166534075, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1671464166534195, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1671464166534245, "dur":40643, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/Unity.Services.Core.Internal.dll" }}
-,{ "pid":12345, "tid":3, "ts":1671464166574889, "dur":47243, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1671464166622134, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/level7" }}
-,{ "pid":12345, "tid":3, "ts":1671464166622182, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1671464166622189, "dur":2471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/level7" }}
-,{ "pid":12345, "tid":3, "ts":1671464166624702, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/level2" }}
-,{ "pid":12345, "tid":3, "ts":1671464166624746, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1671464166624771, "dur":2271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/level2" }}
-,{ "pid":12345, "tid":3, "ts":1671464166627072, "dur":52313, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1671464166529272, "dur":471, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1671464166529744, "dur":3783, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1671464166533539, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":4, "ts":1671464166533642, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1671464166533691, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1671464166533761, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1671464166533800, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1671464166533854, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1671464166533897, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1671464166533979, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1671464166534038, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1671464166534076, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1671464166534112, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1671464166534197, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1671464166534260, "dur":25499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/Unity.Services.Core.dll" }}
-,{ "pid":12345, "tid":4, "ts":1671464166559759, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1671464166559812, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":4, "ts":1671464166559923, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1671464166559968, "dur":717, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":4, "ts":1671464166560686, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1671464166560731, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":4, "ts":1671464166560776, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1671464166560785, "dur":63905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":4, "ts":1671464166624731, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/level1.resS" }}
-,{ "pid":12345, "tid":4, "ts":1671464166624772, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1671464166624778, "dur":2260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/level1.resS" }}
-,{ "pid":12345, "tid":4, "ts":1671464166627071, "dur":52327, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1671464166529294, "dur":453, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1671464166529747, "dur":3805, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1671464166533553, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":5, "ts":1671464166533631, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1671464166533687, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1671464166533775, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1671464166533818, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1671464166533861, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1671464166533907, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1671464166533949, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1671464166533989, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1671464166534040, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1671464166534080, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1671464166534123, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1671464166534226, "dur":656, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/Unity.Services.Core.Threading.dll" }}
-,{ "pid":12345, "tid":5, "ts":1671464166534882, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1671464166534937, "dur":487, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/Unity.Services.Core.Analytics.dll" }}
-,{ "pid":12345, "tid":5, "ts":1671464166535424, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1671464166535472, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":5, "ts":1671464166535522, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1671464166535557, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":5, "ts":1671464166535597, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1671464166535631, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":5, "ts":1671464166535666, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1671464166535697, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":5, "ts":1671464166535746, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1671464166536548, "dur":5340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":5, "ts":1671464166541928, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/sharedassets4.assets" }}
-,{ "pid":12345, "tid":5, "ts":1671464166541972, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1671464166541978, "dur":1414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/sharedassets4.assets" }}
-,{ "pid":12345, "tid":5, "ts":1671464166543425, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/sharedassets3.assets.resS" }}
-,{ "pid":12345, "tid":5, "ts":1671464166543467, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1671464166543475, "dur":12331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/sharedassets3.assets.resS" }}
-,{ "pid":12345, "tid":5, "ts":1671464166555846, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":5, "ts":1671464166555891, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1671464166555900, "dur":66495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":5, "ts":1671464166622444, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/level5.resS" }}
-,{ "pid":12345, "tid":5, "ts":1671464166622499, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1671464166622506, "dur":2978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/level5.resS" }}
-,{ "pid":12345, "tid":5, "ts":1671464166625528, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/level0" }}
-,{ "pid":12345, "tid":5, "ts":1671464166625575, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1671464166625580, "dur":2383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/level0" }}
-,{ "pid":12345, "tid":5, "ts":1671464166627996, "dur":51397, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1671464166529313, "dur":439, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1671464166529752, "dur":3777, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1671464166533538, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":6, "ts":1671464166533646, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1671464166533682, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube.exe" }}
-,{ "pid":12345, "tid":6, "ts":1671464166533721, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1671464166533760, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1671464166533796, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1671464166533831, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1671464166533866, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1671464166533899, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1671464166533936, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1671464166533967, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1671464166534010, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1671464166534100, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1671464166534191, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1671464166534228, "dur":47944, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
-,{ "pid":12345, "tid":6, "ts":1671464166582173, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1671464166582240, "dur":39903, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/level8" }}
-,{ "pid":12345, "tid":6, "ts":1671464166622149, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1671464166622155, "dur":2256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/level8" }}
-,{ "pid":12345, "tid":6, "ts":1671464166624451, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/level2.resS" }}
-,{ "pid":12345, "tid":6, "ts":1671464166624498, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1671464166624504, "dur":2316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/level2.resS" }}
-,{ "pid":12345, "tid":6, "ts":1671464166626874, "dur":52510, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1671464166529335, "dur":421, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1671464166529756, "dur":3783, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1671464166533542, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":7, "ts":1671464166533650, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1671464166533684, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":7, "ts":1671464166533728, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1671464166533772, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1671464166533835, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1671464166533878, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1671464166533918, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1671464166533986, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1671464166534033, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1671464166534074, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1671464166534115, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1671464166534218, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":7, "ts":1671464166534261, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1671464166534306, "dur":935, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/Unity.Services.Core.Device.dll" }}
-,{ "pid":12345, "tid":7, "ts":1671464166535241, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1671464166535298, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":7, "ts":1671464166535345, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1671464166535382, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":7, "ts":1671464166535426, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1671464166535460, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":7, "ts":1671464166535500, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1671464166535538, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":7, "ts":1671464166535591, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1671464166535639, "dur":94182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":7, "ts":1671464166629822, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1671464166629878, "dur":49512, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1671464166529361, "dur":399, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1671464166529760, "dur":3783, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1671464166533543, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":8, "ts":1671464166533654, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1671464166533692, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1671464166533761, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1671464166533838, "dur":102240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":8, "ts":1671464166636080, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1671464166636163, "dur":43229, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1671464166529384, "dur":379, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1671464166529763, "dur":3765, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1671464166533538, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":9, "ts":1671464166533602, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1671464166533647, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":9, "ts":1671464166533692, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1671464166533763, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1671464166533830, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1671464166533871, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1671464166533915, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1671464166533953, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1671464166533994, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1671464166534041, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1671464166534089, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1671464166534189, "dur":36774, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":9, "ts":1671464166570964, "dur":50973, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1671464166621943, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/level7.resS" }}
-,{ "pid":12345, "tid":9, "ts":1671464166622003, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1671464166622009, "dur":2342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/level7.resS" }}
-,{ "pid":12345, "tid":9, "ts":1671464166624390, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/level3.resS" }}
-,{ "pid":12345, "tid":9, "ts":1671464166624432, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1671464166624438, "dur":2491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/level3.resS" }}
-,{ "pid":12345, "tid":9, "ts":1671464166626963, "dur":52432, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1671464166529412, "dur":355, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1671464166529767, "dur":3764, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1671464166533538, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":10, "ts":1671464166533635, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1671464166533688, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1671464166533768, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1671464166533865, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1671464166533911, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1671464166533971, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1671464166534010, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1671464166534048, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1671464166534095, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1671464166534190, "dur":88030, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":10, "ts":1671464166622220, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1671464166622275, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/level6" }}
-,{ "pid":12345, "tid":10, "ts":1671464166622333, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1671464166622340, "dur":3550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/level6" }}
-,{ "pid":12345, "tid":10, "ts":1671464166625926, "dur":53462, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1671464166529440, "dur":331, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1671464166529771, "dur":3759, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1671464166533540, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":11, "ts":1671464166533627, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1671464166533676, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":11, "ts":1671464166533766, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1671464166533807, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1671464166533865, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1671464166533904, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1671464166534006, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1671464166534039, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1671464166534073, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1671464166534103, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1671464166534193, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1671464166534259, "dur":823, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/Unity.Services.Core.Environments.dll" }}
-,{ "pid":12345, "tid":11, "ts":1671464166535083, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1671464166535122, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":11, "ts":1671464166535154, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1671464166535187, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":11, "ts":1671464166535219, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1671464166535249, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":11, "ts":1671464166535285, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1671464166535315, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":11, "ts":1671464166535345, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1671464166535373, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":11, "ts":1671464166535405, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1671464166535434, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":11, "ts":1671464166535469, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1671464166535502, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":11, "ts":1671464166535539, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1671464166535570, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":11, "ts":1671464166535601, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1671464166535632, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":11, "ts":1671464166535670, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1671464166535698, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/sharedassets8.assets" }}
-,{ "pid":12345, "tid":11, "ts":1671464166535744, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1671464166536301, "dur":2723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/sharedassets8.assets" }}
-,{ "pid":12345, "tid":11, "ts":1671464166539070, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/sharedassets6.assets" }}
-,{ "pid":12345, "tid":11, "ts":1671464166539116, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1671464166539124, "dur":717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/sharedassets6.assets" }}
-,{ "pid":12345, "tid":11, "ts":1671464166539873, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/sharedassets5.assets" }}
-,{ "pid":12345, "tid":11, "ts":1671464166539910, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1671464166539916, "dur":615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/sharedassets5.assets" }}
-,{ "pid":12345, "tid":11, "ts":1671464166540563, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/sharedassets4.assets.resS" }}
-,{ "pid":12345, "tid":11, "ts":1671464166540600, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1671464166540605, "dur":10530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/sharedassets4.assets.resS" }}
-,{ "pid":12345, "tid":11, "ts":1671464166551176, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":11, "ts":1671464166551222, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1671464166551232, "dur":71270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":11, "ts":1671464166622559, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/level4.resS" }}
-,{ "pid":12345, "tid":11, "ts":1671464166622636, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1671464166622643, "dur":3108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/level4.resS" }}
-,{ "pid":12345, "tid":11, "ts":1671464166625797, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/boot.config" }}
-,{ "pid":12345, "tid":11, "ts":1671464166625911, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1671464166625950, "dur":53437, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1671464166529456, "dur":318, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1671464166529774, "dur":3767, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1671464166533541, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":12, "ts":1671464166533648, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1671464166533701, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1671464166533775, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1671464166533823, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1671464166533866, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1671464166533906, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1671464166533964, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1671464166534002, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1671464166534054, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1671464166534108, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1671464166534195, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1671464166534236, "dur":40502, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/Unity.Services.Core.Registration.dll" }}
-,{ "pid":12345, "tid":12, "ts":1671464166574739, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1671464166574803, "dur":47228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/level8.resS" }}
-,{ "pid":12345, "tid":12, "ts":1671464166622038, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1671464166622045, "dur":2328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/level8.resS" }}
-,{ "pid":12345, "tid":12, "ts":1671464166624442, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/level3" }}
-,{ "pid":12345, "tid":12, "ts":1671464166624495, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1671464166624500, "dur":2840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/level3" }}
-,{ "pid":12345, "tid":12, "ts":1671464166627446, "dur":51951, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1671464166529477, "dur":301, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1671464166529778, "dur":3754, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1671464166533539, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":13, "ts":1671464166533613, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1671464166533655, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":13, "ts":1671464166533700, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1671464166533760, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1671464166533838, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1671464166533899, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1671464166533953, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1671464166534005, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1671464166534046, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1671464166534083, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1671464166534184, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1671464166534225, "dur":145076, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":13, "ts":1671464166679302, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1671464166679356, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
-,{ "pid":12345, "tid":13, "ts":1671464166679357, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1671464166529497, "dur":284, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1671464166529781, "dur":3753, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1671464166533538, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":14, "ts":1671464166533628, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1671464166533674, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":14, "ts":1671464166533730, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1671464166533809, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1671464166533856, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1671464166533892, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1671464166533928, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1671464166533954, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1671464166533990, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1671464166534023, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1671464166534057, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1671464166534089, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1671464166534186, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1671464166534221, "dur":87832, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":14, "ts":1671464166622054, "dur":163, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1671464166622218, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/level6.resS" }}
-,{ "pid":12345, "tid":14, "ts":1671464166622275, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1671464166622282, "dur":2945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/level6.resS" }}
-,{ "pid":12345, "tid":14, "ts":1671464166625264, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/level0.resS" }}
-,{ "pid":12345, "tid":14, "ts":1671464166625303, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1671464166625308, "dur":2687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/level0.resS" }}
-,{ "pid":12345, "tid":14, "ts":1671464166628034, "dur":51360, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1671464166529519, "dur":265, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1671464166529784, "dur":3751, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1671464166533539, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":15, "ts":1671464166533676, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1671464166533767, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1671464166533852, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1671464166533919, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1671464166533997, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1671464166534044, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":15, "ts":1671464166534108, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1671464166534192, "dur":88214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":15, "ts":1671464166622407, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1671464166622486, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/level5" }}
-,{ "pid":12345, "tid":15, "ts":1671464166622545, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1671464166622551, "dur":2981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/level5" }}
-,{ "pid":12345, "tid":15, "ts":1671464166625566, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":15, "ts":1671464166625621, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1671464166625627, "dur":2673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":15, "ts":1671464166628338, "dur":51058, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1671464166529540, "dur":247, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1671464166529787, "dur":3749, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1671464166533540, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":16, "ts":1671464166533639, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1671464166533703, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1671464166533769, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1671464166533810, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1671464166533851, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1671464166533895, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1671464166533948, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1671464166533997, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1671464166534039, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1671464166534082, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1671464166534127, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1671464166534236, "dur":24672, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
-,{ "pid":12345, "tid":16, "ts":1671464166558910, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1671464166558975, "dur":62946, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":16, "ts":1671464166621936, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1671464166621952, "dur":1904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":16, "ts":1671464166623899, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/level4" }}
-,{ "pid":12345, "tid":16, "ts":1671464166623949, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1671464166623957, "dur":2443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alkan ahin/Desktop/journey/Journey of the Cube_Data/level4" }}
-,{ "pid":12345, "tid":16, "ts":1671464166626451, "dur":52935, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1671464166682146, "dur":1199, "ph":"X", "name": "ProfilerWriteOutput" }
-,{ "pid": 0, "tid": 1, "ts": 1671464166699928, "dur": 456, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1671464166699845, "dur": 557, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+,{ "pid":12345, "tid":0, "ts":1671472298223520, "dur":1186, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671472298224716, "dur":137, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1671472298224889, "dur":18, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1671472298224907, "dur":368, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1671472298225310, "dur":531, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671472298225841, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671472298226895, "dur":162, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671472298227057, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671472298227065, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671472298227067, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671472298227072, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671472298227073, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671472298227077, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671472298227079, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671472298227083, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671472298227085, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671472298227088, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671472298227089, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671472298227093, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671472298227095, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671472298227098, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671472298227099, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671472298227103, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671472298227105, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671472298227109, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671472298227110, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671472298227113, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671472298227115, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671472298227119, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671472298227120, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671472298227125, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671472298227125, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671472298227142, "dur":1377, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1671472298225629, "dur":218, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671472298225849, "dur":1030, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671472298225658, "dur":197, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671472298225855, "dur":1040, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671472298225684, "dur":180, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671472298225864, "dur":1019, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671472298225646, "dur":205, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671472298225851, "dur":1038, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671472298225675, "dur":184, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671472298225859, "dur":1033, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671472298225702, "dur":166, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671472298225868, "dur":1022, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671472298225721, "dur":150, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671472298225871, "dur":1022, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671472298225747, "dur":128, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671472298225875, "dur":1010, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671472298225768, "dur":110, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671472298225878, "dur":1015, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671472298225783, "dur":99, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671472298225882, "dur":1010, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671472298225803, "dur":82, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671472298225885, "dur":1006, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671472298225823, "dur":65, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671472298225888, "dur":1002, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671472298229908, "dur":355, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1671472298938932, "dur": 221, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1671472298562819, "dur": 125214, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1671472298563680, "dur": 35293, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1671472298671175, "dur": 7168, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1671472298678347, "dur": 9680, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1671472298678991, "dur": 7856, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1671472298691537, "dur": 1036, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1671472298690910, "dur": 1686, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671472298939210, "dur": 167, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1671472298756313, "dur":1252, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671472298757572, "dur":118, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1671472298757720, "dur":18, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1671472298757738, "dur":380, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1671472298758139, "dur":519, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671472298758658, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671472298904046, "dur":302, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671472298904348, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671472298904363, "dur":12, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671472298904375, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671472298904379, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671472298904380, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671472298904386, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671472298904388, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671472298904392, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671472298904393, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671472298904397, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671472298904399, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671472298904402, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671472298904404, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671472298904407, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671472298904408, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671472298904412, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671472298904413, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671472298904416, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671472298904418, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671472298904421, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671472298904423, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671472298904426, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671472298904428, "dur":26, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671472298904454, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671472298904465, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671472298904480, "dur":1341, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1671472298758451, "dur":213, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671472298758664, "dur":3860, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671472298762524, "dur":996, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1671472298763520, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671472298763632, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671472298763737, "dur":154, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671472298763891, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671472298763962, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671472298764061, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671472298764117, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671472298764199, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671472298764270, "dur":212, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671472298764483, "dur":33693, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1671472298798176, "dur":226, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671472298798406, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1671472298798547, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671472298798555, "dur":18859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1671472298817477, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/level8.resS" }}
+,{ "pid":12345, "tid":1, "ts":1671472298817559, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671472298817570, "dur":1758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/level8.resS" }}
+,{ "pid":12345, "tid":1, "ts":1671472298819374, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/level6.resS" }}
+,{ "pid":12345, "tid":1, "ts":1671472298819425, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671472298819431, "dur":3359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/level6.resS" }}
+,{ "pid":12345, "tid":1, "ts":1671472298822844, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/level3" }}
+,{ "pid":12345, "tid":1, "ts":1671472298822896, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671472298822902, "dur":2357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/level3" }}
+,{ "pid":12345, "tid":1, "ts":1671472298825306, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1671472298825364, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1671472298825370, "dur":2589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1671472298828004, "dur":76047, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671472298758475, "dur":193, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671472298758668, "dur":3780, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671472298762450, "dur":1230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1671472298763680, "dur":170, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671472298763850, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671472298763910, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671472298764016, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671472298764071, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671472298764142, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671472298764203, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671472298764299, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671472298764434, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671472298764516, "dur":72938, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1671472298837455, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1671472298837571, "dur":66499, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671472298758487, "dur":185, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671472298758673, "dur":3757, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671472298762437, "dur":257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1671472298762694, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671472298762784, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1671472298762914, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671472298762997, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671472298763093, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671472298763162, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671472298763213, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671472298763310, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671472298763351, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671472298763423, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671472298763473, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671472298763556, "dur":104372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1671472298867928, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1671472298868042, "dur":36035, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671472298758533, "dur":151, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671472298758684, "dur":3752, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671472298762437, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1671472298762643, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671472298762788, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1671472298762942, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671472298763012, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube.exe" }}
+,{ "pid":12345, "tid":4, "ts":1671472298763074, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671472298763160, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671472298763210, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671472298763328, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671472298763372, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671472298763461, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671472298763530, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671472298763635, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671472298763697, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671472298763779, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671472298763843, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671472298763913, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671472298763982, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671472298764051, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671472298764111, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671472298764200, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671472298764276, "dur":143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671472298764420, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671472298764467, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671472298764538, "dur":75558, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1671472298840096, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1671472298840175, "dur":63929, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671472298758504, "dur":173, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671472298758677, "dur":3777, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671472298762454, "dur":1437, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1671472298763891, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671472298763983, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671472298764047, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671472298764124, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671472298764194, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671472298764279, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671472298764375, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671472298764478, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671472298764536, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671472298764637, "dur":27735, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671472298792372, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671472298792454, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671472298792513, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671472298792571, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671472298792616, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671472298792674, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671472298792715, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671472298792771, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671472298792812, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671472298792865, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671472298792905, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671472298792958, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1671472298792995, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671472298793045, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1671472298793172, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671472298793246, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":5, "ts":1671472298793289, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671472298793303, "dur":8214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":5, "ts":1671472298801566, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":5, "ts":1671472298801620, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671472298801632, "dur":1384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":5, "ts":1671472298803058, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1671472298803110, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671472298803117, "dur":21241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1671472298824403, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1671472298824448, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1671472298824454, "dur":2636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1671472298827136, "dur":76901, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671472298758524, "dur":157, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671472298758681, "dur":3750, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671472298762437, "dur":238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1671472298762675, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671472298762790, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1671472298762933, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671472298763002, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1671472298763120, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671472298763197, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671472298763275, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671472298763368, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671472298763444, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671472298763530, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671472298763605, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671472298763679, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671472298763803, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671472298763876, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671472298763945, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671472298764040, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671472298764104, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671472298764181, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671472298764243, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671472298764371, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671472298764440, "dur":186, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671472298764626, "dur":39727, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":6, "ts":1671472298804353, "dur":2691, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671472298807050, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1671472298807160, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671472298807173, "dur":1120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1671472298808343, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1671472298808398, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671472298808410, "dur":9532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1671472298818001, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/level7.resS" }}
+,{ "pid":12345, "tid":6, "ts":1671472298818056, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671472298818063, "dur":1541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/level7.resS" }}
+,{ "pid":12345, "tid":6, "ts":1671472298819648, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/level6" }}
+,{ "pid":12345, "tid":6, "ts":1671472298819696, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671472298819701, "dur":1202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/level6" }}
+,{ "pid":12345, "tid":6, "ts":1671472298821014, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/level4" }}
+,{ "pid":12345, "tid":6, "ts":1671472298821066, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671472298821072, "dur":2281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/level4" }}
+,{ "pid":12345, "tid":6, "ts":1671472298823402, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/level2" }}
+,{ "pid":12345, "tid":6, "ts":1671472298823517, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671472298823523, "dur":2718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/level2" }}
+,{ "pid":12345, "tid":6, "ts":1671472298826284, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1671472298826353, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1671472298826359, "dur":1541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1671472298827942, "dur":76133, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671472298758551, "dur":137, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671472298758688, "dur":3754, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671472298762443, "dur":303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1671472298762746, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671472298762828, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1671472298762957, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671472298763024, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1671472298763123, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671472298763199, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671472298763287, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671472298763355, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671472298763434, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671472298763522, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671472298763600, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671472298763692, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671472298763744, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671472298763823, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671472298763877, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671472298763956, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671472298764026, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671472298764108, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671472298764168, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671472298764248, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671472298764365, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671472298764444, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671472298764501, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671472298764581, "dur":139312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1671472298903894, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1671472298904001, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":7, "ts":1671472298904002, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671472298758574, "dur":117, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671472298758691, "dur":3760, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671472298762452, "dur":1061, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1671472298763514, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671472298763631, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671472298763765, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671472298763835, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671472298763889, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671472298763968, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671472298764026, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671472298764120, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671472298764184, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671472298764266, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671472298764371, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671472298764483, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671472298764553, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671472298764632, "dur":24124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671472298788757, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671472298788889, "dur":2437, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671472298791326, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671472298791453, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671472298791504, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671472298791568, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671472298791608, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671472298791668, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671472298791712, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671472298791763, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671472298791801, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671472298791851, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671472298791888, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671472298791937, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671472298791976, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671472298792029, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671472298792068, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671472298792121, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671472298792161, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671472298792215, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671472298792255, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671472298792322, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671472298792361, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671472298792417, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671472298792456, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671472298792533, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671472298792575, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671472298792632, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671472298792672, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671472298792725, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671472298792765, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671472298792847, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671472298792914, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671472298792980, "dur":81275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671472298874260, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1671472298874376, "dur":674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1671472298875076, "dur":28983, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671472298758596, "dur":99, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671472298758695, "dur":3744, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671472298762441, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1671472298762658, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671472298762768, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1671472298762919, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671472298763002, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671472298763110, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671472298763208, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671472298763294, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671472298763381, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671472298763458, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671472298763557, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671472298763661, "dur":258, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671472298763920, "dur":453, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671472298764373, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671472298764472, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671472298764528, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671472298764607, "dur":820, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671472298765427, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671472298765525, "dur":51836, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":9, "ts":1671472298817361, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671472298817483, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/level8" }}
+,{ "pid":12345, "tid":9, "ts":1671472298817553, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671472298817573, "dur":1231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/level8" }}
+,{ "pid":12345, "tid":9, "ts":1671472298818847, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/level7" }}
+,{ "pid":12345, "tid":9, "ts":1671472298818896, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671472298818929, "dur":1456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/level7" }}
+,{ "pid":12345, "tid":9, "ts":1671472298820429, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/level5" }}
+,{ "pid":12345, "tid":9, "ts":1671472298820475, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671472298820482, "dur":3343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/level5" }}
+,{ "pid":12345, "tid":9, "ts":1671472298823871, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/level1.resS" }}
+,{ "pid":12345, "tid":9, "ts":1671472298823919, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671472298823924, "dur":2927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/level1.resS" }}
+,{ "pid":12345, "tid":9, "ts":1671472298826917, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/boot.config" }}
+,{ "pid":12345, "tid":9, "ts":1671472298827079, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1671472298827153, "dur":76895, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671472298758623, "dur":75, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671472298758698, "dur":3735, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671472298762440, "dur":285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1671472298762725, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671472298762796, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1671472298762956, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671472298763040, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671472298763089, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671472298763181, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671472298763268, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671472298763342, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671472298763404, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671472298763484, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671472298763548, "dur":586, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671472298764135, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671472298764202, "dur":166, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671472298764368, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671472298764459, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671472298764574, "dur":65051, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":10, "ts":1671472298829626, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1671472298829728, "dur":74315, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671472298758630, "dur":72, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671472298758702, "dur":3743, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671472298762446, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1671472298762668, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671472298762780, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1671472298762920, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671472298762992, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671472298763081, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671472298763151, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671472298763204, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671472298763306, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671472298763356, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671472298763446, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671472298763501, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671472298763561, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671472298763620, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671472298763711, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671472298763786, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671472298763860, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671472298763914, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671472298764021, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671472298764093, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671472298764166, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671472298764218, "dur":143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671472298764361, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671472298764484, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671472298764569, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671472298764663, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671472298764788, "dur":1065, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671472298765853, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671472298765947, "dur":682, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671472298766629, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671472298766753, "dur":724, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671472298767478, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671472298767579, "dur":24516, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671472298792095, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671472298792198, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":11, "ts":1671472298792252, "dur":937, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671472298793190, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":11, "ts":1671472298793260, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671472298793350, "dur":1374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":11, "ts":1671472298794768, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":11, "ts":1671472298794811, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671472298794817, "dur":1325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":11, "ts":1671472298796186, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":11, "ts":1671472298796234, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671472298796240, "dur":2702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":11, "ts":1671472298798987, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":11, "ts":1671472298799033, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671472298799039, "dur":3960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":11, "ts":1671472298803051, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":11, "ts":1671472298803108, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671472298803117, "dur":12187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":11, "ts":1671472298815358, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/resources.assets" }}
+,{ "pid":12345, "tid":11, "ts":1671472298815405, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671472298815412, "dur":4990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/resources.assets" }}
+,{ "pid":12345, "tid":11, "ts":1671472298820452, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/level4.resS" }}
+,{ "pid":12345, "tid":11, "ts":1671472298820505, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671472298820511, "dur":2666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/level4.resS" }}
+,{ "pid":12345, "tid":11, "ts":1671472298823222, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/level2.resS" }}
+,{ "pid":12345, "tid":11, "ts":1671472298823264, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671472298823270, "dur":2604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/level2.resS" }}
+,{ "pid":12345, "tid":11, "ts":1671472298825943, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":11, "ts":1671472298826021, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1671472298826027, "dur":1962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":11, "ts":1671472298828031, "dur":76076, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671472298758661, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671472298758661, "dur":3768, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671472298762437, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":12, "ts":1671472298762440, "dur":169, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671472298762614, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/app.info" }}
+,{ "pid":12345, "tid":12, "ts":1671472298762624, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671472298763663, "dur":7564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/app.info" }}
+,{ "pid":12345, "tid":12, "ts":1671472298771233, "dur":749, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671472298771983, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671472298772104, "dur":21686, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1671472298793791, "dur":222, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671472298794014, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":12, "ts":1671472298794072, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671472298794078, "dur":834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":12, "ts":1671472298794956, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":12, "ts":1671472298795001, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671472298795030, "dur":959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":12, "ts":1671472298796032, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1671472298796080, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671472298796086, "dur":14929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1671472298811099, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":12, "ts":1671472298811158, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671472298811169, "dur":1428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":12, "ts":1671472298812662, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":12, "ts":1671472298812856, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671472298812962, "dur":1901, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":12, "ts":1671472298814864, "dur":152, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671472298815021, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1671472298815093, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671472298815106, "dur":4643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1671472298819801, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/level5.resS" }}
+,{ "pid":12345, "tid":12, "ts":1671472298819848, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671472298819853, "dur":2607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/level5.resS" }}
+,{ "pid":12345, "tid":12, "ts":1671472298822508, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/level3.resS" }}
+,{ "pid":12345, "tid":12, "ts":1671472298822550, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671472298822558, "dur":2748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/level3.resS" }}
+,{ "pid":12345, "tid":12, "ts":1671472298825360, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/level0" }}
+,{ "pid":12345, "tid":12, "ts":1671472298825429, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1671472298825478, "dur":2000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/enesi/Desktop/gitHub/JourneyoftheCube/jotc exe/Journey of the Cube_Data/level0" }}
+,{ "pid":12345, "tid":12, "ts":1671472298827522, "dur":76518, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1671472298907195, "dur":1435, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1671472298939424, "dur": 399, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1671472298938847, "dur": 990, "ph": "X", "name": "Write chrome-trace events", "args": {} },
