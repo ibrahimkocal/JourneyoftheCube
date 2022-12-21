@@ -1,5 +1,5 @@
 sceneSetups:
-- path: "Assets/Scenes/leveltasar\u0131mlar\u0131/level6.unity"
+- path: "Assets/Scenes/leveltasar\u0131mlar\u0131/level7.unity"
   isLoaded: 1
   isActive: 1
   isSubScene: 0

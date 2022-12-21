@@ -2622,7 +2622,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _PlayerTransform: {fileID: 1409206474}
-  _Offset: {x: 0, y: 4, z: -10}
+  _Offset: {x: 0, y: 4, z: -5}
 --- !u!4 &1261776506 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3637182753055669115, guid: 4918bb1090cbe4547943868e0a4d17e2, type: 3}
@@ -3405,11 +3405,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7222335645666194693, guid: 848f851c10009e74385e37eda3530823, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3
+      value: 1.8
       objectReference: {fileID: 0}
     - target: {fileID: 7222335645666194693, guid: 848f851c10009e74385e37eda3530823, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7222335645666194693, guid: 848f851c10009e74385e37eda3530823, type: 3}
       propertyPath: m_LocalRotation.w
