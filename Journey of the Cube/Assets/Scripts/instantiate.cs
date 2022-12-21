@@ -26,7 +26,8 @@ public class instantiate : MonoBehaviour
         while(true)
         {
             yield return new WaitForSeconds(2f);
-            Instantiate(go,t1.position,Quaternion.identity,null);
+            Vector3 offset= new Vector3(0,0.7f,0);
+            Instantiate(go,t1.position+offset,Quaternion.identity,null);
         }
 
     }

@@ -19,4 +19,9 @@ public class mermi : MonoBehaviour
     {
         rb.AddForce(new Vector3(speed * Time.deltaTime, 0,0 ));
     }
+    private void OnCollisionEnter(Collision collision)
+    {
+        collision.gameObject.GetComponent<Rigidbody>().AddForce(new Vector3(10, 3, 0),ForceMode.Impulse);
+        Destroy(this.gameObject);
+    }
 }
