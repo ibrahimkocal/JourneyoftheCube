@@ -27,19 +27,21 @@ public class Warning : MonoBehaviour
         if(u_name == user[0] && pass == user[1])
         {
             Debug.Log("Giriş Başarılı & Login Successfully");   
-            text.text = "Giriş Başarılı & Login Successfully";
-            text.color = Color.green;   
+            text.color = Color.green; 
+            text.text = "Giriş Başarılı & Login Successfully";  
             girisyapildi.isinlan();
         }
         else if (string.IsNullOrWhiteSpace(u_name) || string.IsNullOrWhiteSpace(pass))
         {
             Debug.Log("Eksik veya hatalı giriş yaptınız. Tekrar Deneyiniz & Try Again");
+            text.color = Color.red;
             text.text = "Eksik veya hatalı giriş yaptınız.\n Tekrar Deneyiniz & Try Again";
         } 
         else
         {
             Debug.Log("Lütfen doğru kullanıcı adı ve şifreyi giriniz && Please enter correct username and password");
-            text.text = "Lütfen doğru kullanıcı adı ve şifreyi giriniz && Please enter correct username and password";
+            text.color = Color.red;
+            text.text = "Lütfen doğru kullanıcı adı ve şifreyi giriniz && Please enter correct username and password";            
         }
     }
 
@@ -56,7 +58,8 @@ public class Warning : MonoBehaviour
         else
         {
             Debug.Log("Kayıt işlemi gerçekleştirilemedi.");   
-            text.text = "Kayıt işlemi gerçekleştirilemedi."; 
+            text.color = Color.red; 
+            text.text = "Kayıt işlemi gerçekleştirilemedi.";
         }
     }
 
