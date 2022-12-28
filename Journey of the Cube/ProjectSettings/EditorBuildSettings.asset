@@ -41,4 +41,10 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/leveltasar\u0131mlar\u0131/level7.unity"
     guid: 1546ff868d9aacd48a7f93321d6b453f
+  - enabled: 1
+    path: "Assets/Scenes/leveltasar\u0131mlar\u0131/level8.unity"
+    guid: 108f396d2e834624cba846d53465e026
+  - enabled: 1
+    path: "Assets/Scenes/leveltasar\u0131mlar\u0131/level9.unity"
+    guid: a71114da0cb162c41b83a2a1f73cc635
   m_configObjects: {}
