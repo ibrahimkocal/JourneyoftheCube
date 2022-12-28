@@ -5891,7 +5891,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 1807213119}
-  speed: 10
+  speed: 5
   forcespeed: 0
   timer: 0
 --- !u!1001 &1830854670
